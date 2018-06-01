@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/WHATISOOP/fabric/common/policies"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/policies"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 func (c *configSet) verifyReadSet(readSet map[string]comparable) error {

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
 )
 

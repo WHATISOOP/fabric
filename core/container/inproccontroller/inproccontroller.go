@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	container "github.com/WHATISOOP/fabric/core/container/api"
-	"github.com/WHATISOOP/fabric/core/container/ccintf"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	container "github.com/whatisoop/fabric/core/container/api"
+	"github.com/whatisoop/fabric/core/container/ccintf"
+	pb "github.com/whatisoop/fabric/protos/peer"
 
 	"golang.org/x/net/context"
 )

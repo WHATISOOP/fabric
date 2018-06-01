@@ -22,11 +22,11 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	"github.com/WHATISOOP/fabric/orderer/localconfig"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	"github.com/whatisoop/fabric/orderer/localconfig"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

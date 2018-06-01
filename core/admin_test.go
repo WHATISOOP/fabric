@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/testutil"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/testutil"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

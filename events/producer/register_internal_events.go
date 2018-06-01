@@ -22,7 +22,7 @@ limitations under the License.
 package producer
 
 import (
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 //----Event Types -----

@@ -19,11 +19,11 @@ package deliverclient
 import (
 	"math"
 
-	"github.com/WHATISOOP/fabric/common/localmsp"
-	"github.com/WHATISOOP/fabric/core/deliverservice/blocksprovider"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/localmsp"
+	"github.com/whatisoop/fabric/core/deliverservice/blocksprovider"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 type blocksRequester struct {

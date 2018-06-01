@@ -22,8 +22,8 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/common"
 )
 
 // NewGossipMessageComparator creates a MessageReplacingPolicy given a maximum number of blocks to hold

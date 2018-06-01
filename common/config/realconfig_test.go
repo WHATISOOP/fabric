@@ -20,12 +20,12 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/WHATISOOP/fabric/common/config"
-	"github.com/WHATISOOP/fabric/common/config/msp"
-	"github.com/WHATISOOP/fabric/common/configtx"
-	"github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	. "github.com/whatisoop/fabric/common/config"
+	"github.com/whatisoop/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/common/configtx"
+	"github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/stretchr/testify/assert"
 )

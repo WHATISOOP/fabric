@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp/pkcs11"
+	"github.com/whatisoop/fabric/bccsp/pkcs11"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

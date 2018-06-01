@@ -19,8 +19,8 @@ package config
 import (
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/config"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/common/config"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 )
 
 // Orderer is a mock implementation of config.Orderer

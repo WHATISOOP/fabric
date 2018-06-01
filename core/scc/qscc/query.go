@@ -20,16 +20,16 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/policy"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/policy"
+	"github.com/whatisoop/fabric/msp/mgmt"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 // LedgerQuerier implements the ledger query functions, including:

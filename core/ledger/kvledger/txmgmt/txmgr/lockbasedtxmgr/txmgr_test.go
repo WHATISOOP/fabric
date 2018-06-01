@@ -23,11 +23,11 @@ import (
 
 	"os"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	ledgertestutil "github.com/WHATISOOP/fabric/core/ledger/testutil"
-	"github.com/WHATISOOP/fabric/protos/ledger/queryresult"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	ledgertestutil "github.com/whatisoop/fabric/core/ledger/testutil"
+	"github.com/whatisoop/fabric/protos/ledger/queryresult"
 )
 
 func TestMain(m *testing.M) {

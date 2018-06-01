@@ -17,9 +17,9 @@ limitations under the License.
 package policyprovider
 
 import (
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/policy"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/policy"
+	"github.com/whatisoop/fabric/msp/mgmt"
 )
 
 // init is called when this package is loaded. This implementation registers the factory

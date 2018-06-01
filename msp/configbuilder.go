@@ -27,9 +27,9 @@ import (
 
 	"os"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/protos/msp"
 	"gopkg.in/yaml.v2"
 )
 

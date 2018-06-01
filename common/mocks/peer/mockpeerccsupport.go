@@ -19,7 +19,7 @@ package peer
 import (
 	"fmt"
 
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 //MockPeerCCSupport provides CC support for peer interfaces.

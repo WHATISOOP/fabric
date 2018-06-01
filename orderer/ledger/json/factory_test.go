@@ -24,7 +24,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"
 )
@@ -39,7 +39,7 @@ func init() {
 
 // This test checks that `New` factory should fail if parent directory is read-only
 func TestErrorMkdir(t *testing.T) {
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.Nil(t, err, "Error creating temp dir: %s", err)
 	defer os.RemoveAll(name)
 	ledgerPath := path.Join(name, "jsonledger")
@@ -52,7 +52,7 @@ func TestErrorMkdir(t *testing.T) {
 func TestErrorReadDir(t *testing.T) {
 	t.Skip("Temporarily skip this test due to the reason stated at the top of this file")
 
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.Nil(t, err, "Error creating temp dir: %s", err)
 	defer os.RemoveAll(name)
 	assert.Nil(t, os.Chmod(name, 0200), "Error chmod temp dir")
@@ -66,7 +66,7 @@ func TestErrorReadDir(t *testing.T) {
 // constructing a chain from invalid dir or file are ignored anyway. Consider refactoring impl
 // to make it more testable.
 func TestIgnoreInvalidObjectInDir(t *testing.T) {
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.Nil(t, err, "Error creating temp dir: %s", err)
 	defer os.RemoveAll(name)
 	file, err := ioutil.TempFile(name, "chain_")
@@ -81,7 +81,7 @@ func TestIgnoreInvalidObjectInDir(t *testing.T) {
 
 // This test checks that factory initialization panics given invalid chain
 func TestInvalidChain(t *testing.T) {
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.Nil(t, err, "Error creating temp dir: %s", err)
 	defer os.RemoveAll(name)
 
@@ -129,7 +129,7 @@ func TestInvalidChain(t *testing.T) {
 
 // This test checks that file is ignored if the name is not valid
 func TestIgnoreInvalidBlockFileName(t *testing.T) {
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.Nil(t, err, "Error creating temp dir: %s", err)
 	defer os.RemoveAll(name)
 
@@ -150,7 +150,7 @@ func TestIgnoreInvalidBlockFileName(t *testing.T) {
 func TestErrorCreatingChain(t *testing.T) {
 	t.Skip("Temporarily skip this test due to the reason stated at the top of this file")
 
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.Nil(t, err, "Error creating temp dir: %s", err)
 	defer os.RemoveAll(name)
 
@@ -162,7 +162,7 @@ func TestErrorCreatingChain(t *testing.T) {
 }
 
 func TestClose(t *testing.T) {
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.Nil(t, err, "Error creating temp dir: %s", err)
 	defer os.RemoveAll(name)
 

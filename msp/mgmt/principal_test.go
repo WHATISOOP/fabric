@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
 )
 

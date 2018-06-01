@@ -23,7 +23,7 @@ import (
 	"crypto/rsa"
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 type ecdsaKeyGenerator struct {

@@ -19,12 +19,12 @@ package policy
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/core/policy/mocks"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/core/policy/mocks"
+	"github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

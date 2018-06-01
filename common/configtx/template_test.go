@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/config"
-	configmsp "github.com/WHATISOOP/fabric/common/config/msp"
-	mmsp "github.com/WHATISOOP/fabric/common/mocks/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/config"
+	configmsp "github.com/whatisoop/fabric/common/config/msp"
+	mmsp "github.com/whatisoop/fabric/common/mocks/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

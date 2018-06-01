@@ -19,7 +19,7 @@ package historydb
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
 )
 
 var strKeySep = string(compositeKeySep)

@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp/mocks"
+	"github.com/whatisoop/fabric/bccsp/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

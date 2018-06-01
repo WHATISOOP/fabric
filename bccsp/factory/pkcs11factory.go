@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/pkcs11"
-	"github.com/WHATISOOP/fabric/bccsp/sw"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/pkcs11"
+	"github.com/whatisoop/fabric/bccsp/sw"
 )
 
 const (

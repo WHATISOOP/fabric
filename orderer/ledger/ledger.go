@@ -17,8 +17,8 @@ limitations under the License.
 package ledger
 
 import (
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 )
 
 // Factory retrieves or creates new ledgers by chainID

@@ -19,20 +19,20 @@ package provisional
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/cauthdsl"
-	"github.com/WHATISOOP/fabric/common/config"
-	configvaluesmsp "github.com/WHATISOOP/fabric/common/config/msp"
-	"github.com/WHATISOOP/fabric/common/configtx"
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/genesis"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/orderer/common/bootstrap"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/cauthdsl"
+	"github.com/whatisoop/fabric/common/config"
+	configvaluesmsp "github.com/whatisoop/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/common/configtx"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/genesis"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/orderer/common/bootstrap"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	logging "github.com/op/go-logging"
 )
 
@@ -183,7 +183,7 @@ func New(conf *genesisconfig.Profile) Generator {
 		tcg := config.TemplateConsortiumsGroup()
 		tcg.Groups[config.ConsortiumsGroupKey].ModPolicy = OrdererAdminsPolicy
 
-		// Fix for https://jira.WHATISOOP.org/browse/FAB-4373
+		// Fix for https://jira.whatisoop.org/browse/FAB-4373
 		// Note, AcceptAllPolicy in this context, does not grant any unrestricted
 		// access, but allows the /Channel/Admins policy to evaluate to true
 		// for the ordering system channel while set to MAJORITY with the addition

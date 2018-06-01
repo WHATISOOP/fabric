@@ -17,9 +17,9 @@ limitations under the License.
 package txmgr
 
 import (
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/protos/common"
 )
 
 // TxMgr - an interface that a transaction manager should implement

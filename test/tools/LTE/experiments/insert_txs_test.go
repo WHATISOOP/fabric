@@ -22,8 +22,8 @@ import (
 
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/test/tools/LTE/chainmgmt"
-	"github.com/WHATISOOP/fabric/test/tools/LTE/common"
+	"github.com/whatisoop/fabric/test/tools/LTE/chainmgmt"
+	"github.com/whatisoop/fabric/test/tools/LTE/common"
 )
 
 // BenchmarkInsertTxs starts fresh chains and inserts the Key-values by simulating writes-only transactions

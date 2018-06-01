@@ -19,7 +19,7 @@ package util
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

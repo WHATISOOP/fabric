@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/WHATISOOP/fabric/orderer/ledger"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	. "github.com/whatisoop/fabric/orderer/ledger"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 )
 
 type ledgerTestable interface {

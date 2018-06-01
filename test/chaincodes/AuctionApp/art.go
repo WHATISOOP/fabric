@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 
 ///////////////////////////////////////////////////////////////////////
 // Author : IT People - Mohan Venkataraman - Auction API for v1.0
-// Purpose: Explore the WHATISOOP/fabric and understand
+// Purpose: Explore the whatisoop/fabric and understand
 // how to write an chain code, application/chain code boundaries
 // The code is not the best as it has just hammered out in a day or two
 // Feedback and updates are appreciated
@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -239,7 +239,7 @@ func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 	fmt.Println("Starting Item Auction Application chaincode BlueMix ver 21 Dated 2016-07-02 09.45.00: ")
 
-	//ccPath = fmt.Sprintf("%s/src/github.com/WHATISOOP/fabric/auction/art/artchaincode/", gopath)
+	//ccPath = fmt.Sprintf("%s/src/github.com/whatisoop/fabric/auction/art/artchaincode/", gopath)
 	// Start the shim -- running the fabric
 	err := shim.Start(new(SimpleChaincode))
 	if err != nil {

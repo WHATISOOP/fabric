@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/tools/protolator/testprotos"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/tools/protolator/testprotos"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/stretchr/testify/assert"
 )

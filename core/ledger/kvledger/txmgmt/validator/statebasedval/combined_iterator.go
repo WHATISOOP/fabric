@@ -19,7 +19,7 @@ package statebasedval
 import (
 	"strings"
 
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
 )
 
 // combinedIterator implements the interface statedb.ResultsIterator.

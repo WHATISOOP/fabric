@@ -17,9 +17,9 @@ limitations under the License.
 package gossip
 
 import (
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/msp/mgmt"
 )
 
 var saLogger = flogging.MustGetLogger("peer/gossip/sa")

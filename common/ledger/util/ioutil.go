@@ -23,7 +23,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 )
 
 var logger = flogging.MustGetLogger("kvledger.util")

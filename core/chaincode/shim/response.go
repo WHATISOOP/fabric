@@ -16,7 +16,7 @@ limitations under the License.
 package shim
 
 import (
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

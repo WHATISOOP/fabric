@@ -35,9 +35,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/signer"
-	"github.com/WHATISOOP/fabric/bccsp/utils"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/signer"
+	"github.com/whatisoop/fabric/bccsp/utils"
 	"golang.org/x/crypto/sha3"
 )
 

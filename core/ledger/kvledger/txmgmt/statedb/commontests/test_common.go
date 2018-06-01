@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 // TestGetStateMultipleKeys tests read for given multiple keys
@@ -65,7 +65,7 @@ func TestBasicRW(t *testing.T, dbProvider statedb.VersionedDBProvider) {
 	testutil.AssertNil(t, sp)
 
 	// Test retrieval of non-existent key - returns nil rather than error
-	// For more details see https://github.com/WHATISOOP-archives/fabric/issues/936.
+	// For more details see https://github.com/whatisoop-archives/fabric/issues/936.
 	val, err := db.GetState("ns", "key1")
 	testutil.AssertNoError(t, err, "Should receive nil rather than error upon reading non existent key")
 	testutil.AssertNil(t, val)

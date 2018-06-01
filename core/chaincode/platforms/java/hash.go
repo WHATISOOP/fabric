@@ -26,10 +26,10 @@ import (
 	"errors"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/util"
-	ccutil "github.com/WHATISOOP/fabric/core/chaincode/platforms/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/util"
+	ccutil "github.com/whatisoop/fabric/core/chaincode/platforms/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 var logger = flogging.MustGetLogger("java/hash")

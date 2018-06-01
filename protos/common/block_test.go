@@ -21,7 +21,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
+	"github.com/whatisoop/fabric/common/util"
 	"github.com/stretchr/testify/assert"
 )
 

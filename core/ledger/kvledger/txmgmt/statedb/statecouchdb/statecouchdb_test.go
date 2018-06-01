@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb/commontests"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
-	ledgertestutil "github.com/WHATISOOP/fabric/core/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb/commontests"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
+	ledgertestutil "github.com/whatisoop/fabric/core/ledger/testutil"
 	"github.com/spf13/viper"
 )
 

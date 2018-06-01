@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/gossip/util"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

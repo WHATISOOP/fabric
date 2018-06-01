@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/WHATISOOP/fabric/orderer/common/bootstrap"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/orderer/common/bootstrap"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

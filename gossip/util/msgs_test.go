@@ -19,8 +19,8 @@ package util
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/gossip/common"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/gossip/common"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

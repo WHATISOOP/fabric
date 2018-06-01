@@ -19,7 +19,7 @@ package configtx
 import (
 	"testing"
 
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"

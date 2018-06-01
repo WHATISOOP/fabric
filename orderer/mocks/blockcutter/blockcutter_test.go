@@ -19,7 +19,7 @@ package mocks
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/orderer/common/blockcutter"
+	"github.com/whatisoop/fabric/orderer/common/blockcutter"
 )
 
 func TestBlockCutterInterface(t *testing.T) {

@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/common/ledger/util"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/util"
 
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/common"
 )
 
 func TestBlockFileScanSmallTxOnly(t *testing.T) {

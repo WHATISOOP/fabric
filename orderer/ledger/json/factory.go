@@ -24,7 +24,7 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/jsonpb"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
+	"github.com/whatisoop/fabric/orderer/ledger"
 )
 
 type jsonLedgerFactory struct {

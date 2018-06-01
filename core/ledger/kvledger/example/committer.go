@@ -17,9 +17,9 @@ limitations under the License.
 package example
 
 import (
-	"github.com/WHATISOOP/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger"
 
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/common"
 )
 
 // Committer a toy committer

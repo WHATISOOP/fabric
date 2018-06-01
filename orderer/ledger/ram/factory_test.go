@@ -19,7 +19,7 @@ package ramledger
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
 
 	logging "github.com/op/go-logging"
 )

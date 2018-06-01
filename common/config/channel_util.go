@@ -19,9 +19,9 @@ package config
 import (
 	"math"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/bccsp"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 const defaultHashingAlgorithm = bccsp.SHA256

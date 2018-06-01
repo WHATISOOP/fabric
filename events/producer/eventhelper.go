@@ -19,9 +19,9 @@ package producer
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 // SendProducerBlockEvent sends block event to clients

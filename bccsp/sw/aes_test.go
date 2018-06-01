@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/mocks"
-	"github.com/WHATISOOP/fabric/bccsp/utils"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/mocks"
+	"github.com/whatisoop/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"
 )
 

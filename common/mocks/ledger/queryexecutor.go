@@ -19,7 +19,7 @@ package ledger
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/ledger"
+	"github.com/whatisoop/fabric/common/ledger"
 )
 
 type MockQueryExecutor struct {

@@ -19,13 +19,13 @@ package configtx
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/cauthdsl"
-	"github.com/WHATISOOP/fabric/common/config"
-	configtxmsp "github.com/WHATISOOP/fabric/common/config/msp"
-	"github.com/WHATISOOP/fabric/common/configtx/api"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/cauthdsl"
+	"github.com/whatisoop/fabric/common/config"
+	configtxmsp "github.com/whatisoop/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/common/configtx/api"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

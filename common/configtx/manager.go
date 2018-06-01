@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/WHATISOOP/fabric/common/configtx/api"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx/api"
+	"github.com/whatisoop/fabric/common/flogging"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 )

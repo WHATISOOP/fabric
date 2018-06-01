@@ -20,7 +20,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/WHATISOOP/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/common"
 )
 
 // ChannelDeMultiplexer is a struct that can receive channel registrations (AddChannel)

@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/WHATISOOP/fabric/common/tools/configtxlator/metadata"
-	"github.com/WHATISOOP/fabric/common/tools/configtxlator/rest"
+	"github.com/whatisoop/fabric/common/tools/configtxlator/metadata"
+	"github.com/whatisoop/fabric/common/tools/configtxlator/rest"
 	"github.com/op/go-logging"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
@@ -31,7 +31,7 @@ var logger = logging.MustGetLogger("configtxlator")
 
 // command line flags
 var (
-	app = kingpin.New("configtxlator", "Utility for generating WHATISOOP Fabric channel configurations")
+	app = kingpin.New("configtxlator", "Utility for generating whatisoop Fabric channel configurations")
 
 	start    = app.Command("start", "Start the configtxlator REST server")
 	hostname = start.Flag("hostname", "The hostname or IP on which the REST server will listen").Default("0.0.0.0").String()

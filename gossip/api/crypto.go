@@ -17,7 +17,7 @@ limitations under the License.
 package api
 
 import (
-	"github.com/WHATISOOP/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/common"
 	"google.golang.org/grpc"
 )
 

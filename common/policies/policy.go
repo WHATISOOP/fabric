@@ -21,10 +21,10 @@ import (
 	"strings"
 	"sync"
 
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 	logging "github.com/op/go-logging"
 )
 

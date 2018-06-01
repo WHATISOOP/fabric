@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/config/msp"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/common/config/msp"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 )
 
 const (

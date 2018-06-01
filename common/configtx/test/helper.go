@@ -17,17 +17,17 @@ limitations under the License.
 package test
 
 import (
-	"github.com/WHATISOOP/fabric/common/config"
-	configtxmsp "github.com/WHATISOOP/fabric/common/config/msp"
-	"github.com/WHATISOOP/fabric/common/configtx"
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/genesis"
-	cf "github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	mspproto "github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/common/config"
+	configtxmsp "github.com/whatisoop/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/common/configtx"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/genesis"
+	cf "github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
+	mspproto "github.com/whatisoop/fabric/protos/msp"
 )
 
 var logger = flogging.MustGetLogger("common/configtx/test")

@@ -17,7 +17,7 @@ limitations under the License.
 package peer
 
 import (
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 	logging "github.com/op/go-logging"
 )
 

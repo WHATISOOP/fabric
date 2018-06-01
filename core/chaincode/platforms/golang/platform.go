@@ -30,9 +30,9 @@ import (
 
 	"sort"
 
-	"github.com/WHATISOOP/fabric/core/chaincode/platforms/util"
-	cutil "github.com/WHATISOOP/fabric/core/container/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/chaincode/platforms/util"
+	cutil "github.com/whatisoop/fabric/core/container/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // Platform for chaincodes written in Go
@@ -286,8 +286,8 @@ func (goPlatform *Platform) GetDeploymentPayload(spec *pb.ChaincodeSpec) ([]byte
 	// Remove any imports that are provided by the ccenv or system
 	// --------------------------------------------------------------------------------------
 	var provided = map[string]bool{
-		"github.com/WHATISOOP/fabric/core/chaincode/shim": true,
-		"github.com/WHATISOOP/fabric/protos/peer":         true,
+		"github.com/whatisoop/fabric/core/chaincode/shim": true,
+		"github.com/whatisoop/fabric/protos/peer":         true,
 	}
 
 	imports = filter(imports, func(pkg string) bool {

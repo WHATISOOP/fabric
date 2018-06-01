@@ -27,14 +27,14 @@ import (
 
 	"io/ioutil"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/metadata"
-	"github.com/WHATISOOP/fabric/core/chaincode/platforms/car"
-	"github.com/WHATISOOP/fabric/core/chaincode/platforms/golang"
-	"github.com/WHATISOOP/fabric/core/chaincode/platforms/java"
-	"github.com/WHATISOOP/fabric/core/config"
-	cutil "github.com/WHATISOOP/fabric/core/container/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/metadata"
+	"github.com/whatisoop/fabric/core/chaincode/platforms/car"
+	"github.com/whatisoop/fabric/core/chaincode/platforms/golang"
+	"github.com/whatisoop/fabric/core/chaincode/platforms/java"
+	"github.com/whatisoop/fabric/core/config"
+	cutil "github.com/whatisoop/fabric/core/container/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/spf13/viper"
 )
 
@@ -126,7 +126,7 @@ func generateDockerfile(platform Platform, cds *pb.ChaincodeDeploymentSpec, tls 
 	buf = append(buf, fmt.Sprintf("ENV CORE_CHAINCODE_BUILDLEVEL=%s", metadata.Version))
 
 	if tls {
-		const guestTLSPath = "/etc/WHATISOOP/fabric/peer.crt"
+		const guestTLSPath = "/etc/whatisoop/fabric/peer.crt"
 
 		buf = append(buf, "ENV CORE_PEER_TLS_ROOTCERT_FILE="+guestTLSPath)
 		buf = append(buf, "COPY peer.crt "+guestTLSPath)

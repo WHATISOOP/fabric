@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package msp
 
 import (
-	"github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/protos/msp"
 )
 
 // FIXME: we need better comments on the interfaces!!
@@ -23,11 +23,11 @@ type IdentityDeserializer interface {
 	DeserializeIdentity(serializedIdentity []byte) (Identity, error)
 }
 
-// Membership service provider APIs for WHATISOOP Fabric:
+// Membership service provider APIs for whatisoop Fabric:
 //
 // By "membership service provider" we refer to an abstract component of the
 // system that would provide (anonymous) credentials to clients, and peers for
-// them to participate in WHATISOOP/fabric network. Clients use these
+// them to participate in whatisoop/fabric network. Clients use these
 // credentials to authenticate their transactions, and peers use these credentials
 // to authenticate transaction processing results (endorsements). While
 // strongly connected to the transaction processing components of the systems,

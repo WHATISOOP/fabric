@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/crypto"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/common/crypto"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -19,8 +19,8 @@ package genesis
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/configtx"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

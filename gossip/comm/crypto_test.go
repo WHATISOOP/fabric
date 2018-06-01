@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/gossip/util"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/gossip/util"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

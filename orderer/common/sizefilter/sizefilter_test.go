@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	mockconfig "github.com/WHATISOOP/fabric/common/mocks/config"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	mockconfig "github.com/whatisoop/fabric/common/mocks/config"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 )
 
 func TestMaxBytesRule(t *testing.T) {

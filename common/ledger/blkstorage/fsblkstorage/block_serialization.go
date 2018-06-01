@@ -18,9 +18,9 @@ package fsblkstorage
 
 import (
 	"github.com/golang/protobuf/proto"
-	ledgerutil "github.com/WHATISOOP/fabric/common/ledger/util"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	ledgerutil "github.com/whatisoop/fabric/common/ledger/util"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 type serializedBlockInfo struct {

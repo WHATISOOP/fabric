@@ -19,8 +19,8 @@ package configtx
 import (
 	"testing"
 
-	configtxapi "github.com/WHATISOOP/fabric/common/configtx/api"
-	"github.com/WHATISOOP/fabric/common/policies"
+	configtxapi "github.com/whatisoop/fabric/common/configtx/api"
+	"github.com/whatisoop/fabric/common/policies"
 )
 
 func TestConfigtxTransactionalInterface(t *testing.T) {

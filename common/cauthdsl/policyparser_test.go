@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/msp"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/msp"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

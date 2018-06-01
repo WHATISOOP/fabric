@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/WHATISOOP/fabric/core/container/ccintf"
+	"github.com/whatisoop/fabric/core/container/ccintf"
 )
 
 type BuildSpecFactory func() (io.Reader, error)

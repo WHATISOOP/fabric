@@ -17,15 +17,15 @@ limitations under the License.
 package statebasedval
 
 import (
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/WHATISOOP/fabric/core/ledger/util"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/ledger/rwset/kvrwset"
-	"github.com/WHATISOOP/fabric/protos/peer"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/core/ledger/util"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/whatisoop/fabric/protos/peer"
+	putils "github.com/whatisoop/fabric/protos/utils"
 )
 
 var logger = flogging.MustGetLogger("statevalidator")

@@ -29,9 +29,9 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/ca"
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/metadata"
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/msp"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/ca"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/metadata"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/msp"
 )
 
 const (
@@ -192,7 +192,7 @@ PeerOrgs:
 
 //command line flags
 var (
-	app = kingpin.New("cryptogen", "Utility for generating WHATISOOP Fabric key material")
+	app = kingpin.New("cryptogen", "Utility for generating whatisoop Fabric key material")
 
 	gen        = app.Command("generate", "Generate key material")
 	outputDir  = gen.Flag("output", "The output directory in which to place artifacts").Default("crypto-config").String()

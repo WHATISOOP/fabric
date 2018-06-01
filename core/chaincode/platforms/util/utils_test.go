@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/config"
-	cutil "github.com/WHATISOOP/fabric/core/container/util"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/config"
+	cutil "github.com/whatisoop/fabric/core/container/util"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
@@ -338,7 +338,7 @@ func TestDockerPull(t *testing.T) {
 	// Future considerations: publish a known dummy image that is multi-arch and free to randomly
 	// delete, and use that here instead.
 	err := DockerBuild(DockerBuildOptions{
-		Image:        cutil.ParseDockerfileTemplate("WHATISOOP/fabric-ccenv:$(ARCH)-1.0.0-alpha2"),
+		Image:        cutil.ParseDockerfileTemplate("whatisoop/fabric-ccenv:$(ARCH)-1.0.0-alpha2"),
 		Cmd:          "/bin/true",
 		InputStream:  codepackage,
 		OutputStream: binpackage,

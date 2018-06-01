@@ -17,8 +17,8 @@ limitations under the License.
 package policies
 
 import (
-	"github.com/WHATISOOP/fabric/common/policies"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/policies"
+	cb "github.com/whatisoop/fabric/protos/common"
 )
 
 // Policy is a mock implementation of the policies.Policy interface

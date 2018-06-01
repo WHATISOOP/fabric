@@ -17,7 +17,7 @@ limitations under the License.
 package inproccontroller
 
 import (
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // PeerChaincodeStream interface for stream between Peer and chaincode instance.

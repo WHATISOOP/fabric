@@ -19,11 +19,11 @@ package configtxfilter
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/configtx"
-	"github.com/WHATISOOP/fabric/common/configtx/api"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx"
+	"github.com/whatisoop/fabric/common/configtx/api"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 type configFilter struct {

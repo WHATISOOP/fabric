@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/configtx"
-	configtxapi "github.com/WHATISOOP/fabric/common/configtx/api"
-	mockconfigtx "github.com/WHATISOOP/fabric/common/mocks/configtx"
-	mockcrypto "github.com/WHATISOOP/fabric/common/mocks/crypto"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx"
+	configtxapi "github.com/whatisoop/fabric/common/configtx/api"
+	mockconfigtx "github.com/whatisoop/fabric/common/mocks/configtx"
+	mockcrypto "github.com/whatisoop/fabric/common/mocks/crypto"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"

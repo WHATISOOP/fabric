@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

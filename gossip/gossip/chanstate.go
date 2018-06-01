@@ -21,12 +21,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/comm"
-	"github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/gossip/discovery"
-	"github.com/WHATISOOP/fabric/gossip/gossip/channel"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/comm"
+	"github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/discovery"
+	"github.com/whatisoop/fabric/gossip/gossip/channel"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 )
 
 type channelState struct {

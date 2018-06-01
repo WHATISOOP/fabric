@@ -17,13 +17,13 @@ limitations under the License.
 package cauthdsl
 
 import (
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/msp"
 
 	"sort"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 // AcceptAllPolicy always evaluates to true

@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
 	"github.com/spf13/viper"
 )
 

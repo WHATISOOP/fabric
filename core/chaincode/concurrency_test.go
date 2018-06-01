@@ -21,9 +21,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	pb "github.com/whatisoop/fabric/protos/peer"
 
 	"golang.org/x/net/context"
 )
@@ -46,7 +46,7 @@ func TestExecuteConcurrentInvokes(t *testing.T) {
 
 	var ctxt = context.Background()
 
-	url := "github.com/WHATISOOP/fabric/examples/ccchecker/chaincodes/newkeyperinvoke"
+	url := "github.com/whatisoop/fabric/examples/ccchecker/chaincodes/newkeyperinvoke"
 
 	chaincodeID := &pb.ChaincodeID{Name: "nkpi", Path: url, Version: "0"}
 

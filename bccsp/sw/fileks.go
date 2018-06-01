@@ -30,8 +30,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/utils"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/utils"
 )
 
 // NewFileBasedKeyStore instantiated a file-based key store at a given position.

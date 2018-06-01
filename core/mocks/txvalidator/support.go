@@ -17,11 +17,11 @@ limitations under the License.
 package support
 
 import (
-	mockpolicies "github.com/WHATISOOP/fabric/common/mocks/policies"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/protos/common"
+	mockpolicies "github.com/whatisoop/fabric/common/mocks/policies"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/protos/common"
 )
 
 type Support struct {

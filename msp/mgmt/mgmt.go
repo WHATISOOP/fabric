@@ -22,11 +22,11 @@ import (
 
 	"errors"
 
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	configvaluesmsp "github.com/WHATISOOP/fabric/common/config/msp"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/msp"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	configvaluesmsp "github.com/whatisoop/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/msp"
 )
 
 // LoadLocalMsp loads the local MSP from the specified directory

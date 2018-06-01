@@ -17,9 +17,9 @@ limitations under the License.
 package config
 
 import (
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 func ordererConfigGroup(key string, value []byte) *cb.ConfigGroup {

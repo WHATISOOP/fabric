@@ -10,26 +10,26 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 	"golang.org/x/net/context"
 
 	"errors"
 
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/chaincode"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/common/validation"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/policy"
-	syscc "github.com/WHATISOOP/fabric/core/scc"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/chaincode"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/common/validation"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/policy"
+	syscc "github.com/whatisoop/fabric/core/scc"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	putils "github.com/whatisoop/fabric/protos/utils"
 )
 
 // >>>>> begin errors section >>>>>
@@ -48,7 +48,7 @@ func (ce chaincodeError) Error() string {
 var endorserLogger = flogging.MustGetLogger("endorser")
 
 // The Jira issue that documents Endorser flow along with its relationship to
-// the lifecycle chaincode - https://jira.WHATISOOP.org/browse/FAB-181
+// the lifecycle chaincode - https://jira.whatisoop.org/browse/FAB-181
 
 // Endorser provides the Endorser service ProcessProposal
 type Endorser struct {

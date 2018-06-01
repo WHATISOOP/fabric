@@ -23,14 +23,14 @@ import (
 	"sync/atomic"
 
 	"github.com/golang/protobuf/proto"
-	gossipcommon "github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/gossip/discovery"
+	gossipcommon "github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/discovery"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/protos/common"
-	gossip_proto "github.com/WHATISOOP/fabric/protos/gossip"
-	"github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/protos/common"
+	gossip_proto "github.com/whatisoop/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/protos/orderer"
 	"github.com/op/go-logging"
 )
 

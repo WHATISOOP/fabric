@@ -19,10 +19,10 @@ package sanitycheck
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/configtx"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	mspprotos "github.com/WHATISOOP/fabric/protos/msp"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx"
+	cb "github.com/whatisoop/fabric/protos/common"
+	mspprotos "github.com/whatisoop/fabric/protos/msp"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 )

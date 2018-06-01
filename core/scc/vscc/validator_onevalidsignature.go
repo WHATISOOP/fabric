@@ -23,19 +23,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/WHATISOOP/fabric/common/cauthdsl"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/common/sysccprovider"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/WHATISOOP/fabric/core/scc/lscc"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/ledger/rwset/kvrwset"
-	"github.com/WHATISOOP/fabric/protos/msp"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/cauthdsl"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/common/sysccprovider"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/whatisoop/fabric/core/scc/lscc"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/whatisoop/fabric/protos/msp"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 var logger = flogging.MustGetLogger("vscc")

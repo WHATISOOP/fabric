@@ -19,7 +19,7 @@ package policyprovider
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core/policy"
+	"github.com/whatisoop/fabric/core/policy"
 	"github.com/stretchr/testify/assert"
 )
 

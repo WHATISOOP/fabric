@@ -21,10 +21,10 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/core/scc/cscc"
-	common2 "github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/core/scc/cscc"
+	common2 "github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	ex02 "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example02"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	ex02 "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example02"
 )
 
 var chaincodeName = "ex02"

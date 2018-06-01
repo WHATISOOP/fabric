@@ -8,17 +8,17 @@ package multichain
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/config"
-	"github.com/WHATISOOP/fabric/common/configtx"
-	configtxapi "github.com/WHATISOOP/fabric/common/configtx/api"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/config"
+	"github.com/whatisoop/fabric/common/configtx"
+	configtxapi "github.com/whatisoop/fabric/common/configtx/api"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/orderer/ledger"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/op/go-logging"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/crypto"
+	"github.com/whatisoop/fabric/common/crypto"
 )
 
 var logger = logging.MustGetLogger("orderer/multichain")

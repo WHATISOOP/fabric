@@ -23,11 +23,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage"
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
 
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/common"
 )
 
 func TestMain(m *testing.M) {

@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"strings"
 
-	ledger "github.com/WHATISOOP/fabric/core/ledger"
+	ledger "github.com/whatisoop/fabric/core/ledger"
 
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/common"
 	logging "github.com/op/go-logging"
 )
 

@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"testing"
 
-	common "github.com/WHATISOOP/fabric/common/metadata"
-	"github.com/WHATISOOP/fabric/orderer/metadata"
+	common "github.com/whatisoop/fabric/common/metadata"
+	"github.com/whatisoop/fabric/orderer/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

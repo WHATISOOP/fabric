@@ -21,12 +21,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage/fsblkstorage"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
-	fileledger "github.com/WHATISOOP/fabric/orderer/ledger/file"
-	jsonledger "github.com/WHATISOOP/fabric/orderer/ledger/json"
-	ramledger "github.com/WHATISOOP/fabric/orderer/ledger/ram"
-	config "github.com/WHATISOOP/fabric/orderer/localconfig"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage/fsblkstorage"
+	"github.com/whatisoop/fabric/orderer/ledger"
+	fileledger "github.com/whatisoop/fabric/orderer/ledger/file"
+	jsonledger "github.com/whatisoop/fabric/orderer/ledger/json"
+	ramledger "github.com/whatisoop/fabric/orderer/ledger/ram"
+	config "github.com/whatisoop/fabric/orderer/localconfig"
 )
 
 func createLedgerFactory(conf *config.TopLevel) (ledger.Factory, string) {

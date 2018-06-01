@@ -26,17 +26,17 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/config"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/policy"
-	"github.com/WHATISOOP/fabric/events/producer"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/config"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/policy"
+	"github.com/whatisoop/fabric/events/producer"
+	"github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 // PeerConfiger implements the configuration handler for the peer. For every

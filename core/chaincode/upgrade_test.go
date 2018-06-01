@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	putils "github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
@@ -140,7 +140,7 @@ func TestUpgradeCC(t *testing.T) {
 	var ctxt = context.Background()
 
 	ccName := "mycc"
-	url := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example01"
+	url := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example01"
 	chaincodeID := &pb.ChaincodeID{Name: ccName, Path: url, Version: "0"}
 
 	f := "init"
@@ -181,7 +181,7 @@ func TestUpgradeCC(t *testing.T) {
 
 	//now upgrade to example02 which takes the same args as example01 but inits state vars
 	//and also allows query.
-	url = "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example02"
+	url = "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example02"
 
 	//Note ccName hasn't changed...
 	chaincodeID = &pb.ChaincodeID{Name: ccName, Path: url, Version: "1"}
@@ -234,7 +234,7 @@ func TestInvalUpgradeCC(t *testing.T) {
 	var ctxt = context.Background()
 
 	ccName := "mycc"
-	url := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example02"
+	url := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example02"
 
 	f := "init"
 	args := util.ToChaincodeArgs(f, "a", "100", "b", "200")

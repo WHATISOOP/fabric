@@ -20,9 +20,9 @@ import (
 	"crypto/ecdsa"
 	"crypto/x509"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/bccsp/signer"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/bccsp/signer"
 )
 
 // GeneratePrivateKey creates a private key and stores it in keystorePath

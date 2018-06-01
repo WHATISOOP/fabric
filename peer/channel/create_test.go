@@ -29,10 +29,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/msp/mgmt/testtools"
-	"github.com/WHATISOOP/fabric/peer/common"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/msp/mgmt/testtools"
+	"github.com/whatisoop/fabric/peer/common"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/orderer"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

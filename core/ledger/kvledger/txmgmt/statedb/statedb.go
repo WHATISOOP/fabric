@@ -19,8 +19,8 @@ package statedb
 import (
 	"sort"
 
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/WHATISOOP/fabric/core/ledger/util"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/core/ledger/util"
 )
 
 // VersionedDBProvider provides an instance of an versioned DB

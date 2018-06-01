@@ -22,11 +22,11 @@ import (
 
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger/kvledger"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 var logger = flogging.MustGetLogger("ledgermgmt")

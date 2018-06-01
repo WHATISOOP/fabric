@@ -23,10 +23,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/WHATISOOP/fabric/core/container/api"
-	"github.com/WHATISOOP/fabric/core/container/ccintf"
-	"github.com/WHATISOOP/fabric/core/container/dockercontroller"
-	"github.com/WHATISOOP/fabric/core/container/inproccontroller"
+	"github.com/whatisoop/fabric/core/container/api"
+	"github.com/whatisoop/fabric/core/container/ccintf"
+	"github.com/whatisoop/fabric/core/container/dockercontroller"
+	"github.com/whatisoop/fabric/core/container/inproccontroller"
 )
 
 type refCountedLock struct {

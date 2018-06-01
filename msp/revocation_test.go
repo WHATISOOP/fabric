@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp/sw"
-	"github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/bccsp/sw"
+	"github.com/whatisoop/fabric/protos/msp"
 	"github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"
 )

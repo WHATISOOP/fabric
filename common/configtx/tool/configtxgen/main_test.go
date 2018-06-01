@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
 
 	"github.com/stretchr/testify/assert"
 )

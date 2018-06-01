@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/policies"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/policies"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

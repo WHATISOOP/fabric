@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/WHATISOOP/fabric/core/scc/cscc"
-	"github.com/WHATISOOP/fabric/peer/common"
-	pcommon "github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/core/scc/cscc"
+	"github.com/whatisoop/fabric/peer/common"
+	pcommon "github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	putils "github.com/whatisoop/fabric/protos/utils"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )

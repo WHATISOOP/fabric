@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"testing"
 
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	. "github.com/WHATISOOP/fabric/common/tools/protolator"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	. "github.com/whatisoop/fabric/common/tools/protolator"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

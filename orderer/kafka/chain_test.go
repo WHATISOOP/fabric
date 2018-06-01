@@ -13,12 +13,12 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/Shopify/sarama/mocks"
-	mockconfig "github.com/WHATISOOP/fabric/common/mocks/config"
-	mockblockcutter "github.com/WHATISOOP/fabric/orderer/mocks/blockcutter"
-	mockmultichain "github.com/WHATISOOP/fabric/orderer/mocks/multichain"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	mockconfig "github.com/whatisoop/fabric/common/mocks/config"
+	mockblockcutter "github.com/whatisoop/fabric/orderer/mocks/blockcutter"
+	mockmultichain "github.com/whatisoop/fabric/orderer/mocks/multichain"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

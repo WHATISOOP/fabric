@@ -17,13 +17,13 @@ limitations under the License.
 package multichain
 
 import (
-	"github.com/WHATISOOP/fabric/common/config"
-	mockconfig "github.com/WHATISOOP/fabric/common/mocks/config"
-	"github.com/WHATISOOP/fabric/orderer/common/blockcutter"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	mockblockcutter "github.com/WHATISOOP/fabric/orderer/mocks/blockcutter"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/config"
+	mockconfig "github.com/whatisoop/fabric/common/mocks/config"
+	"github.com/whatisoop/fabric/orderer/common/blockcutter"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	mockblockcutter "github.com/whatisoop/fabric/orderer/mocks/blockcutter"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/op/go-logging"
 )

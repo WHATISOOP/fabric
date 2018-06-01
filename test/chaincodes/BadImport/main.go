@@ -8,7 +8,7 @@
 package main
 
 import (
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
 	"fmt"
 	"bogus/package"
 )

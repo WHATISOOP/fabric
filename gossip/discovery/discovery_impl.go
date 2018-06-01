@@ -27,10 +27,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/gossip/gossip/msgstore"
-	"github.com/WHATISOOP/fabric/gossip/util"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/gossip/msgstore"
+	"github.com/whatisoop/fabric/gossip/util"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 	"github.com/op/go-logging"
 )
 

@@ -20,12 +20,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	ptestutils "github.com/WHATISOOP/fabric/protos/testutils"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	ptestutils "github.com/whatisoop/fabric/protos/testutils"
 )
 
 // App - a sample fund transfer app

@@ -16,9 +16,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/protos/msp"
 	"github.com/op/go-logging"
 )
 

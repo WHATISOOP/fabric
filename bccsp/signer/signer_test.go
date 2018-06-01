@@ -22,8 +22,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp/mocks"
-	"github.com/WHATISOOP/fabric/bccsp/utils"
+	"github.com/whatisoop/fabric/bccsp/mocks"
+	"github.com/whatisoop/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"
 )
 

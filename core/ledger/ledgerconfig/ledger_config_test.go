@@ -19,8 +19,8 @@ package ledgerconfig
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	ledgertestutil "github.com/WHATISOOP/fabric/core/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	ledgertestutil "github.com/whatisoop/fabric/core/ledger/testutil"
 	"github.com/spf13/viper"
 )
 

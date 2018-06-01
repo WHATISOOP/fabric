@@ -21,9 +21,9 @@ import (
 	"os"
 	"testing"
 
-	msp2 "github.com/WHATISOOP/fabric/common/config/msp"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/msp"
+	msp2 "github.com/whatisoop/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/msp"
 	"github.com/stretchr/testify/assert"
 )
 

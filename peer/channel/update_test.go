@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/peer/common"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/peer/common"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/stretchr/testify/assert"
 )

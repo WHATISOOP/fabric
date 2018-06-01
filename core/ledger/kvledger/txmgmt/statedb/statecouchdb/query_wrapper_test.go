@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
 )
 
 // TestSimpleQuery tests a simple query

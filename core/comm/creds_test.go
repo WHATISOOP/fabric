@@ -12,7 +12,7 @@ import (
 
 	"google.golang.org/grpc/credentials"
 
-	"github.com/WHATISOOP/fabric/core/comm"
+	"github.com/whatisoop/fabric/core/comm"
 	"github.com/stretchr/testify/assert"
 )
 

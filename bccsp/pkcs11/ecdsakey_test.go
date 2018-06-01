@@ -22,8 +22,8 @@ import (
 	"crypto/x509"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/utils"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"
 )
 

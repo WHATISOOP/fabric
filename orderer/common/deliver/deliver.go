@@ -19,16 +19,16 @@ package deliver
 import (
 	"io"
 
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	"github.com/WHATISOOP/fabric/orderer/common/sigfilter"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	"github.com/whatisoop/fabric/orderer/common/sigfilter"
+	"github.com/whatisoop/fabric/orderer/ledger"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 	"github.com/op/go-logging"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 var logger = logging.MustGetLogger("orderer/common/deliver")

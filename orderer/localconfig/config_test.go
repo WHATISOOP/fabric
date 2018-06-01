@@ -41,7 +41,7 @@ func TestMissingConfigFile(t *testing.T) {
 }
 
 func TestMalformedConfigFile(t *testing.T) {
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.Nil(t, err, "Error creating temp dir: %s", err)
 	defer func() {
 		err = os.RemoveAll(name)

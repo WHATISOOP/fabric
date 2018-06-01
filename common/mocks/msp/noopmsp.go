@@ -17,8 +17,8 @@ limitations under the License.
 package msp
 
 import (
-	m "github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/protos/msp"
+	m "github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/protos/msp"
 )
 
 type noopmsp struct {

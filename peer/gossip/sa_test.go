@@ -19,8 +19,8 @@ package gossip
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/peer/gossip/mocks"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/peer/gossip/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

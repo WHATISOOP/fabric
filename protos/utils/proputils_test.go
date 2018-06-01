@@ -26,13 +26,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/msp"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/msp/mgmt/testtools"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/msp"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/msp/mgmt/testtools"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

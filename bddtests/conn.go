@@ -19,7 +19,7 @@ package bddtests
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/core/comm"
+	"github.com/whatisoop/fabric/core/comm"
 	"google.golang.org/grpc"
 )
 

@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/tools/protolator/testprotos"
+	"github.com/whatisoop/fabric/common/tools/protolator/testprotos"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

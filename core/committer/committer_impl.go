@@ -19,12 +19,12 @@ package committer
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/committer/txvalidator"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/events/producer"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/committer/txvalidator"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/events/producer"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/op/go-logging"
 )
 

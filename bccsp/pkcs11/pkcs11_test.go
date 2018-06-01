@@ -23,7 +23,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 	"github.com/miekg/pkcs11"
 	"github.com/stretchr/testify/assert"
 )

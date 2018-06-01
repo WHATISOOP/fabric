@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp/sw"
+	"github.com/whatisoop/fabric/bccsp/sw"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -56,7 +56,7 @@ func TestBadConfigOUCert(t *testing.T) {
 func TestValidateIntermediateConfigOU(t *testing.T) {
 	// testdata/external:
 	// the configuration is such that only identities with
-	// OU=WHATISOOP Testing and signed by the intermediate ca should be validated
+	// OU=whatisoop Testing and signed by the intermediate ca should be validated
 	thisMSP := getLocalMSP(t, "testdata/external")
 
 	id, err := thisMSP.GetDefaultSigningIdentity()

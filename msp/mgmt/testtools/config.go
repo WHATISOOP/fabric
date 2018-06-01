@@ -17,10 +17,10 @@ limitations under the License.
 package msptesttools
 
 import (
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/msp/mgmt"
 )
 
 // LoadTestMSPSetup sets up the local MSP

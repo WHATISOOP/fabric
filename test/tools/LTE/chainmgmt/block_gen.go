@@ -20,8 +20,8 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/protos/common"
-	benchcommon "github.com/WHATISOOP/fabric/test/tools/LTE/common"
+	"github.com/whatisoop/fabric/protos/common"
+	benchcommon "github.com/whatisoop/fabric/test/tools/LTE/common"
 )
 
 const (

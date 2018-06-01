@@ -33,12 +33,12 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/chaincode/platforms"
-	"github.com/WHATISOOP/fabric/core/container/ccintf"
-	coreutil "github.com/WHATISOOP/fabric/core/testutil"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/chaincode/platforms"
+	"github.com/whatisoop/fabric/core/container/ccintf"
+	coreutil "github.com/whatisoop/fabric/core/testutil"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 func TestHostConfig(t *testing.T) {
@@ -122,7 +122,7 @@ func Test_Start(t *testing.T) {
 	err = dvm.Start(ctx, ccid, args, env, nil, nil)
 	testerr(t, err, false)
 
-	chaincodePath := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example01"
+	chaincodePath := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example01"
 	spec := &pb.ChaincodeSpec{Type: pb.ChaincodeSpec_GOLANG,
 		ChaincodeId: &pb.ChaincodeID{Name: "ex01", Path: chaincodePath},
 		Input:       &pb.ChaincodeInput{Args: util.ToChaincodeArgs("f")}}

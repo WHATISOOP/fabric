@@ -17,9 +17,9 @@ limitations under the License.
 package filter
 
 import (
-	"github.com/WHATISOOP/fabric/gossip/comm"
-	"github.com/WHATISOOP/fabric/gossip/discovery"
-	"github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/gossip/comm"
+	"github.com/whatisoop/fabric/gossip/discovery"
+	"github.com/whatisoop/fabric/gossip/util"
 )
 
 // RoutingFilter defines a predicate on a NetworkMember

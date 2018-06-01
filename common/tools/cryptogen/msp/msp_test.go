@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/ca"
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/msp"
-	fabricmsp "github.com/WHATISOOP/fabric/msp"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/ca"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/msp"
+	fabricmsp "github.com/whatisoop/fabric/msp"
 	"github.com/stretchr/testify/assert"
 )
 

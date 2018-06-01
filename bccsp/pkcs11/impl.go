@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/sw"
-	"github.com/WHATISOOP/fabric/bccsp/utils"
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/sw"
+	"github.com/whatisoop/fabric/bccsp/utils"
+	"github.com/whatisoop/fabric/common/flogging"
 	"github.com/miekg/pkcs11"
 )
 

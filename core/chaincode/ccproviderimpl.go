@@ -21,9 +21,9 @@ import (
 
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/ledger"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // ccProviderFactory implements the ccprovider.ChaincodeProviderFactory

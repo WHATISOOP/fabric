@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/configtx/tool/configtxgen/metadata"
+	"github.com/whatisoop/fabric/common/configtx/tool/configtxgen/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

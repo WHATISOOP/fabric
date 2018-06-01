@@ -17,12 +17,12 @@ limitations under the License.
 package main
 
 import (
-	"github.com/WHATISOOP/fabric/common/crypto"
-	"github.com/WHATISOOP/fabric/orderer/common/broadcast"
-	"github.com/WHATISOOP/fabric/orderer/common/deliver"
-	"github.com/WHATISOOP/fabric/orderer/configupdate"
-	"github.com/WHATISOOP/fabric/orderer/multichain"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/common/crypto"
+	"github.com/whatisoop/fabric/orderer/common/broadcast"
+	"github.com/whatisoop/fabric/orderer/common/deliver"
+	"github.com/whatisoop/fabric/orderer/configupdate"
+	"github.com/whatisoop/fabric/orderer/multichain"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 
 	"runtime/debug"
 )

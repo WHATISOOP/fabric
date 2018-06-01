@@ -19,9 +19,9 @@ package comm
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/common"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/common"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 )
 
 // Comm is an object that enables to communicate with other peers

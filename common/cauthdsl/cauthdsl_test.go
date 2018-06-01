@@ -11,9 +11,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	mb "github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
+	mb "github.com/whatisoop/fabric/protos/msp"
 
 	"github.com/golang/protobuf/proto"
 	logging "github.com/op/go-logging"

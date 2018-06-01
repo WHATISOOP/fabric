@@ -19,12 +19,12 @@ package validation
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/configtx"
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	"github.com/WHATISOOP/fabric/common/util"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	"github.com/whatisoop/fabric/common/util"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 func TestValidateConfigTx(t *testing.T) {

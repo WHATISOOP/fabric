@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // This chaincode implements a simple map that is stored in the state.

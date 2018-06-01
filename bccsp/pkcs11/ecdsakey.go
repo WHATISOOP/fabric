@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 type ecdsaPrivateKey struct {

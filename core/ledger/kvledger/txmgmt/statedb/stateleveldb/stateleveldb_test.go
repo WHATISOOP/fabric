@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb/commontests"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb/commontests"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
 	"github.com/spf13/viper"
 )
 

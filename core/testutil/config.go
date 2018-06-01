@@ -26,11 +26,11 @@ import (
 	"github.com/op/go-logging"
 	"github.com/spf13/viper"
 
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/msp"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/msp"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 )
 
 // Config the config wrapper structure

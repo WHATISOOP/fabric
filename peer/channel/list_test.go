@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/peer/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/peer/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

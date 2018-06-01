@@ -17,12 +17,12 @@ limitations under the License.
 package fsblkstorage
 
 import (
-	"github.com/WHATISOOP/fabric/common/ledger"
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage"
-	"github.com/WHATISOOP/fabric/common/ledger/util/leveldbhelper"
+	"github.com/whatisoop/fabric/common/ledger"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage"
+	"github.com/whatisoop/fabric/common/ledger/util/leveldbhelper"
 
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 // fsBlockStore - filesystem based implementation for `BlockStore`

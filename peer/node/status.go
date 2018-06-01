@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/WHATISOOP/fabric/peer/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/peer/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )

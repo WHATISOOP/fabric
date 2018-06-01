@@ -21,8 +21,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 var logger = flogging.MustGetLogger("eventhub_producer")

@@ -17,13 +17,13 @@ limitations under the License.
 package msp
 
 import (
-	"github.com/WHATISOOP/fabric/common/cauthdsl"
-	"github.com/WHATISOOP/fabric/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	mspprotos "github.com/WHATISOOP/fabric/protos/msp"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/cauthdsl"
+	"github.com/whatisoop/fabric/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
+	mspprotos "github.com/whatisoop/fabric/protos/msp"
+	"github.com/whatisoop/fabric/protos/utils"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 )
 
 var logger = flogging.MustGetLogger("configvalues/msp")

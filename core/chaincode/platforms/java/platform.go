@@ -25,8 +25,8 @@ import (
 	"net/url"
 	"strings"
 
-	cutil "github.com/WHATISOOP/fabric/core/container/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	cutil "github.com/whatisoop/fabric/core/container/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	//	"path/filepath"
 )
 

@@ -25,11 +25,11 @@ import (
 
 	"bytes"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/core/common/ccpackage"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/core/common/ccpackage"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 //----- SignedCDSData ------

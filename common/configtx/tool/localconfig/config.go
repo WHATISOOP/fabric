@@ -22,15 +22,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/viperutil"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/viperutil"
 	logging "github.com/op/go-logging"
 
 	"github.com/spf13/viper"
 
 	"path/filepath"
 
-	cf "github.com/WHATISOOP/fabric/core/config"
+	cf "github.com/whatisoop/fabric/core/config"
 )
 
 const (

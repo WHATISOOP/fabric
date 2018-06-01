@@ -23,12 +23,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	"github.com/WHATISOOP/fabric/msp"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/orderer/localconfig"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	"github.com/whatisoop/fabric/msp"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/orderer/localconfig"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 )
 
 var conf *config.TopLevel

@@ -18,7 +18,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/WHATISOOP/fabric/bccsp/sw"
+	"github.com/whatisoop/fabric/bccsp/sw"
 )
 
 type dsaSignature struct {

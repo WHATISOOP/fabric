@@ -13,11 +13,11 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/golang/protobuf/proto"
-	localconfig "github.com/WHATISOOP/fabric/orderer/localconfig"
-	"github.com/WHATISOOP/fabric/orderer/multichain"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	localconfig "github.com/whatisoop/fabric/orderer/localconfig"
+	"github.com/whatisoop/fabric/orderer/multichain"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 // Used for capturing metrics -- see processMessagesToBlocks

@@ -19,7 +19,7 @@ package policies
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/policies"
+	"github.com/whatisoop/fabric/common/policies"
 )
 
 func TestPolicyManagerInterface(t *testing.T) {

@@ -19,13 +19,13 @@ package lockbasedtxmgr
 import (
 	"sync"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/validator"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/validator"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/protos/common"
 )
 
 var logger = flogging.MustGetLogger("lockbasedtxmgr")

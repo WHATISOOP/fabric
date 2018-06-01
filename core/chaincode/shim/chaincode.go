@@ -29,13 +29,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	commonledger "github.com/WHATISOOP/fabric/common/ledger"
-	"github.com/WHATISOOP/fabric/core/comm"
-	"github.com/WHATISOOP/fabric/protos/ledger/queryresult"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/common/flogging"
+	commonledger "github.com/whatisoop/fabric/common/ledger"
+	"github.com/whatisoop/fabric/core/comm"
+	"github.com/whatisoop/fabric/protos/ledger/queryresult"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/op/go-logging"
 	"github.com/spf13/viper"
 	"golang.org/x/net/context"
@@ -721,7 +721,7 @@ func (stub *ChaincodeStub) SetEvent(name string, payload []byte) error {
 // As independent programs, Go language chaincodes can use any logging
 // methodology they choose, from simple fmt.Printf() to os.Stdout, to
 // decorated logs created by the author's favorite logging package. The
-// chaincode "shim" interface, however, is defined by the WHATISOOP fabric
+// chaincode "shim" interface, however, is defined by the whatisoop fabric
 // and implements its own logging methodology. This methodology currently
 // includes severity-based logging control and a standard way of decorating
 // the logs.
@@ -733,7 +733,7 @@ func (stub *ChaincodeStub) SetEvent(name string, payload []byte) error {
 // other package requirements. The lack of package requirements is especially
 // important because even if the chaincode happened to explicitly use the same
 // logging package as the shim, unless the chaincode is physically included as
-// part of the WHATISOOP fabric source code tree it could actually end up
+// part of the whatisoop fabric source code tree it could actually end up
 // using a distinct binary instance of the logging package, with different
 // formats and severity levels than the binary package used by the shim.
 //

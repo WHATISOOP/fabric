@@ -19,7 +19,7 @@ package update
 import (
 	"testing"
 
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/stretchr/testify/assert"
 )

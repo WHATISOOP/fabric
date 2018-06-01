@@ -17,9 +17,9 @@ limitations under the License.
 package ledger
 
 import (
-	commonledger "github.com/WHATISOOP/fabric/common/ledger"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	commonledger "github.com/whatisoop/fabric/common/ledger"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 // PeerLedgerProvider provides handle to ledger instances

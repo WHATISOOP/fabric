@@ -19,8 +19,8 @@ package mgmt
 import (
 	"testing"
 
-	configvaluesmsp "github.com/WHATISOOP/fabric/common/config/msp"
-	"github.com/WHATISOOP/fabric/msp"
+	configvaluesmsp "github.com/whatisoop/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/msp"
 	"github.com/stretchr/testify/assert"
 )
 

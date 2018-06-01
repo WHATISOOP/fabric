@@ -19,8 +19,8 @@ package discovery
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/gossip/common"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/gossip/common"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 )
 
 // CryptoService is an interface that the discovery expects to be implemented and passed on creation

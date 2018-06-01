@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/WHATISOOP/fabric/msp"
-	mspprotos "github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/msp"
+	mspprotos "github.com/whatisoop/fabric/protos/msp"
 )
 
 type pendingMSPConfig struct {

@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	config "github.com/WHATISOOP/fabric/orderer/localconfig"
+	config "github.com/whatisoop/fabric/orderer/localconfig"
 	"github.com/stretchr/testify/assert"
 )
 

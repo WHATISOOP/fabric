@@ -65,12 +65,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig" // config for genesis.yaml
-	genesisconfigProvisional "github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	"github.com/WHATISOOP/fabric/orderer/localconfig" // config, for the orderer.yaml
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig" // config for genesis.yaml
+	genesisconfigProvisional "github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	"github.com/whatisoop/fabric/orderer/localconfig" // config, for the orderer.yaml
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
@@ -1007,7 +1007,7 @@ func ote(testname string, txs int64, chans int, orderers int, ordType string, kb
 		logger(fmt.Sprintf("Using %d new channelIDs, e.g. test-chan.00023", numChannels))
 		for c := 0; c < numChannels; c++ {
 			channelIDs[c] = fmt.Sprintf("test-chan.%05d", c)
-			cmd := fmt.Sprintf("cd $GOPATH/src/github.com/WHATISOOP/fabric && peer channel create -c %s", channelIDs[c])
+			cmd := fmt.Sprintf("cd $GOPATH/src/github.com/whatisoop/fabric && peer channel create -c %s", channelIDs[c])
 			_ = executeCmd(cmd)
 			//executeCmdAndDisplay(cmd)
 		}

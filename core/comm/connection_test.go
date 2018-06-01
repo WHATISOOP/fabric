@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	testpb "github.com/WHATISOOP/fabric/core/comm/testdata/grpc"
-	"github.com/WHATISOOP/fabric/core/testutil"
+	testpb "github.com/whatisoop/fabric/core/comm/testdata/grpc"
+	"github.com/whatisoop/fabric/core/testutil"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"

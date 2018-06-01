@@ -19,7 +19,7 @@ package multichain
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/orderer/multichain"
+	"github.com/whatisoop/fabric/orderer/multichain"
 )
 
 func TestConsenterSupportInterface(t *testing.T) {

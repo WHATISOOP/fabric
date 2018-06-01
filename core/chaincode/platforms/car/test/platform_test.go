@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/container"
-	"github.com/WHATISOOP/fabric/core/testutil"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/container"
+	"github.com/whatisoop/fabric/core/testutil"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 func TestMain(m *testing.M) {
@@ -45,7 +45,7 @@ func TestCar_BuildImage(t *testing.T) {
 		return
 	}
 
-	chaincodePath := cwd + "/org.WHATISOOP.chaincode.example02-0.1-SNAPSHOT.car"
+	chaincodePath := cwd + "/org.whatisoop.chaincode.example02-0.1-SNAPSHOT.car"
 	spec := &pb.ChaincodeSpec{Type: pb.ChaincodeSpec_CAR, ChaincodeId: &pb.ChaincodeID{Name: "cartest", Path: chaincodePath}, Input: &pb.ChaincodeInput{Args: util.ToChaincodeArgs("f")}}
 	if err := vm.BuildChaincodeContainer(spec); err != nil {
 		t.Error(err)

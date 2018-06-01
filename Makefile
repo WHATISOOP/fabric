@@ -35,7 +35,7 @@
 #   - dist-clean - clean release packages for all target platforms
 #   - unit-test-clean - cleans unit test state (particularly from docker)
 
-PROJECT_NAME   = WHATISOOP/fabric
+PROJECT_NAME   = whatisoop/fabric
 BASE_VERSION = 1.0.2
 PREV_VERSION = 1.0.1
 IS_RELEASE = true
@@ -82,7 +82,7 @@ PROJECT_FILES = $(shell git ls-files  | grep -v ^test | grep -v ^unit-test | \
 	grep -v ^.git | grep -v ^examples | grep -v ^devenv | grep -v .png$ | \
 	grep -v ^LICENSE )
 RELEASE_TEMPLATES = $(shell git ls-files | grep "release/templates")
-IMAGES = peer orderer ccenv javaenv buildenv testenv zookeeper kafka couchdb tools
+IMAGES = peer orderer ccenv buildenv zookeeper kafka couchdb tools
 RELEASE_PLATFORMS = windows-amd64 darwin-amd64 linux-amd64 linux-ppc64le linux-s390x
 RELEASE_PKGS = configtxgen cryptogen configtxlator peer orderer
 
@@ -144,12 +144,9 @@ cryptogen: build/bin/cryptogen
 
 tools-docker: build/image/tools/$(DUMMY)
 
-javaenv: build/image/javaenv/$(DUMMY)
 
 buildenv: build/image/buildenv/$(DUMMY)
 
-build/image/testenv/$(DUMMY): build/image/buildenv/$(DUMMY)
-testenv: build/image/testenv/$(DUMMY)
 
 couchdb: build/image/couchdb/$(DUMMY)
 
@@ -157,12 +154,12 @@ kafka: build/image/kafka/$(DUMMY)
 
 zookeeper: build/image/zookeeper/$(DUMMY)
 
-unit-test: unit-test-clean peer-docker testenv couchdb
+unit-test: unit-test-clean peer-docker couchdb
 	cd unit-test && docker-compose up --abort-on-container-exit --force-recreate && docker-compose down
 
 unit-tests: unit-test
 
-verify: unit-test-clean peer-docker testenv couchdb
+verify: unit-test-clean peer-docker couchdb
 	cd unit-test && JOB_TYPE=VERIFY docker-compose up --abort-on-container-exit --force-recreate && docker-compose down
 
 # Generates a string to the terminal suitable for manual augmentation / re-issue, useful for running tests by hand
@@ -187,7 +184,7 @@ linter: buildenv
 %/chaintool: Makefile
 	@echo "Installing chaintool"
 	@mkdir -p $(@D)
-	curl -fL $(CHAINTOOL_URL) > $@
+#	curl -fL $(CHAINTOOL_URL) > $@
 	chmod +x $@
 
 # We (re)build a package within a docker context but persist the $GOPATH/pkg
@@ -220,8 +217,8 @@ build/docker/gotools: gotools/Makefile
 		make install BINDIR=/opt/gotools/bin OBJDIR=/opt/gotools/obj
 
 # Both peer and peer-docker depend on ccenv and javaenv (all docker env images it supports).
-build/bin/peer: build/image/ccenv/$(DUMMY) build/image/javaenv/$(DUMMY)
-build/image/peer/$(DUMMY): build/image/ccenv/$(DUMMY) build/image/javaenv/$(DUMMY)
+build/bin/peer: build/image/ccenv/$(DUMMY) 
+build/image/peer/$(DUMMY): build/image/ccenv/$(DUMMY) 
 
 build/bin/%: $(PROJECT_FILES)
 	@mkdir -p $(@D)
@@ -234,19 +231,12 @@ build/bin/%: $(PROJECT_FILES)
 build/image/ccenv/payload:      build/docker/gotools/bin/protoc-gen-go \
 				build/bin/chaintool \
 				build/goshim.tar.bz2
-build/image/javaenv/payload:    build/javashim.tar.bz2 \
-				build/protos.tar.bz2 \
-				settings.gradle
 build/image/peer/payload:       build/docker/bin/peer \
 				build/sampleconfig.tar.bz2
 build/image/orderer/payload:    build/docker/bin/orderer \
 				build/sampleconfig.tar.bz2
 build/image/buildenv/payload:   build/gotools.tar.bz2 \
 				build/docker/gotools/bin/protoc-gen-go
-build/image/testenv/payload:    build/docker/bin/orderer \
-				build/docker/bin/peer \
-				build/sampleconfig.tar.bz2 \
-				images/testenv/install-softhsm2.sh
 build/image/zookeeper/payload:  images/zookeeper/docker-entrypoint.sh
 build/image/kafka/payload:      images/kafka/docker-entrypoint.sh \
 				images/kafka/kafka-run-class.sh

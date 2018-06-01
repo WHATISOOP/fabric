@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/flogging"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 var putilsLogger = flogging.MustGetLogger("protoutils")

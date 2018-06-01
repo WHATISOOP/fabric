@@ -24,9 +24,9 @@ import (
 
 	"time"
 
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
 )
 

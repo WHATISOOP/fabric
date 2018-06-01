@@ -19,10 +19,10 @@ package ccprovider
 import (
 	"context"
 
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 type ExecuteChaincodeResultProvider interface {

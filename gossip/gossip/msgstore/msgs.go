@@ -21,7 +21,7 @@ import (
 
 	"time"
 
-	"github.com/WHATISOOP/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/common"
 )
 
 var noopLock = func() {}

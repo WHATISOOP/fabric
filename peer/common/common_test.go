@@ -11,11 +11,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/peer/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/peer/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

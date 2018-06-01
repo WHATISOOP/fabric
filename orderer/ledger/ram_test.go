@@ -17,9 +17,9 @@ limitations under the License.
 package ledger_test
 
 import (
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	. "github.com/WHATISOOP/fabric/orderer/ledger"
-	ramledger "github.com/WHATISOOP/fabric/orderer/ledger/ram"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	. "github.com/whatisoop/fabric/orderer/ledger"
+	ramledger "github.com/whatisoop/fabric/orderer/ledger/ram"
 )
 
 func init() {

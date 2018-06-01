@@ -19,7 +19,7 @@ package config
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/config"
+	"github.com/whatisoop/fabric/common/config"
 )
 
 func TestOrdererConfigInterface(t *testing.T) {

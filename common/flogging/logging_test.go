@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 	"github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"
 )

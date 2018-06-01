@@ -18,9 +18,9 @@ package genesis
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/configtx"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 const (

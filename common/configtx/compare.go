@@ -19,7 +19,7 @@ package configtx
 import (
 	"bytes"
 
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	cb "github.com/whatisoop/fabric/protos/common"
 )
 
 type comparable struct {

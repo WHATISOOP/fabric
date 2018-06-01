@@ -20,8 +20,8 @@ package factory
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/pkcs11"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/pkcs11"
 )
 
 type FactoryOpts struct {

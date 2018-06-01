@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  *
- * See github.com/WHATISOOP/fabric/test/chaincodes/AutoVendor/chaincode/main.go for details
+ * See github.com/whatisoop/fabric/test/chaincodes/AutoVendor/chaincode/main.go for details
  */
 package indirectdep
 

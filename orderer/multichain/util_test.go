@@ -19,12 +19,12 @@ package multichain
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/config"
-	"github.com/WHATISOOP/fabric/common/configtx"
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	"github.com/WHATISOOP/fabric/orderer/common/blockcutter"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/config"
+	"github.com/whatisoop/fabric/common/configtx"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	"github.com/whatisoop/fabric/orderer/common/blockcutter"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 type mockConsenter struct {

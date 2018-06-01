@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/op/go-logging"

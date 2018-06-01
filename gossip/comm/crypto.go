@@ -28,8 +28,8 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	gutil "github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/common/util"
+	gutil "github.com/whatisoop/fabric/gossip/util"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"

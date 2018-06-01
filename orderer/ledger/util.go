@@ -18,8 +18,8 @@ package ledger
 
 import (
 	"github.com/golang/protobuf/proto"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 )
 
 var closedChan chan struct{}

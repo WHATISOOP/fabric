@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 	"github.com/spf13/viper"
 )
 

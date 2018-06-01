@@ -17,9 +17,9 @@ limitations under the License.
 package main
 
 import (
-	"github.com/WHATISOOP/fabric/common/configtx"
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/configtx"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	cb "github.com/whatisoop/fabric/protos/common"
 )
 
 func newChainRequest(consensusType, creationPolicy, newChannelId string) *cb.Envelope {

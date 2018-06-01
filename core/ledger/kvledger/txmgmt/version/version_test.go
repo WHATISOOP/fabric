@@ -19,7 +19,7 @@ package version
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
 )
 
 func TestVersionSerialization(t *testing.T) {

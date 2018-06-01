@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/comm"
-	"github.com/WHATISOOP/fabric/core/deliverservice/blocksprovider"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/comm"
+	"github.com/whatisoop/fabric/core/deliverservice/blocksprovider"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/protos/orderer"
 	"github.com/op/go-logging"
 	"google.golang.org/grpc"
 )

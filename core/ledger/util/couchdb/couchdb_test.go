@@ -26,9 +26,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
-	ledgertestutil "github.com/WHATISOOP/fabric/core/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
+	ledgertestutil "github.com/whatisoop/fabric/core/ledger/testutil"
 	"github.com/spf13/viper"
 )
 

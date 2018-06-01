@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 type ecdsaSignature struct {

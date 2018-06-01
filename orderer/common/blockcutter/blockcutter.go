@@ -17,9 +17,9 @@ limitations under the License.
 package blockcutter
 
 import (
-	"github.com/WHATISOOP/fabric/common/config"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/config"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/op/go-logging"
 )

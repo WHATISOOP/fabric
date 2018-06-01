@@ -19,13 +19,13 @@ package escc
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
+	putils "github.com/whatisoop/fabric/protos/utils"
 
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
 )
 
 var logger = flogging.MustGetLogger("escc")

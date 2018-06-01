@@ -19,7 +19,7 @@ package clilogging
 import (
 	"golang.org/x/net/context"
 
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 
 	"github.com/spf13/cobra"
 )

@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/protos/common"
 )
 
 func TestBlocksItrBlockingNext(t *testing.T) {

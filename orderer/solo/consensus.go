@@ -19,8 +19,8 @@ package solo
 import (
 	"time"
 
-	"github.com/WHATISOOP/fabric/orderer/multichain"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/orderer/multichain"
+	cb "github.com/whatisoop/fabric/protos/common"
 	"github.com/op/go-logging"
 )
 

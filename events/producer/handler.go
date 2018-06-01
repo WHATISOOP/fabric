@@ -22,8 +22,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/WHATISOOP/fabric/msp/mgmt"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/msp/mgmt"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 type handler struct {

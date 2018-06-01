@@ -19,7 +19,7 @@ package sw
 import (
 	"hash"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 // KeyGenerator is a BCCSP-like interface that provides key generation algorithms

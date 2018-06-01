@@ -22,8 +22,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/WHATISOOP/fabric/gossip/util"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/gossip/util"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 	"github.com/op/go-logging"
 )
 

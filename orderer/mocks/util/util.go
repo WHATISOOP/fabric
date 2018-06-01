@@ -32,7 +32,7 @@ func GenerateMockPublicPrivateKeyPairPEM(isCA bool) (string, string, error) {
 	template := x509.Certificate{
 		SerialNumber: big.NewInt(100),
 		Subject: pkix.Name{
-			Organization: []string{"WHATISOOP Fabric"},
+			Organization: []string{"whatisoop Fabric"},
 		},
 	}
 	if isCA {

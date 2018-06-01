@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/bccsp/sw"
+	"github.com/whatisoop/fabric/bccsp/sw"
 	"github.com/stretchr/testify/assert"
 )
 

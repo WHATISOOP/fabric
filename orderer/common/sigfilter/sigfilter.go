@@ -17,9 +17,9 @@ limitations under the License.
 package sigfilter
 
 import (
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/op/go-logging"
 )

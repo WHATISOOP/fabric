@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
 )
 
 // TestVDBEnv provides a level db backed versioned db for testing

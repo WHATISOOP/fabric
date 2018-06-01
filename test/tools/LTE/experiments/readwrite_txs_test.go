@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/test/tools/LTE/chainmgmt"
-	"github.com/WHATISOOP/fabric/test/tools/LTE/common"
+	"github.com/whatisoop/fabric/test/tools/LTE/chainmgmt"
+	"github.com/whatisoop/fabric/test/tools/LTE/common"
 )
 
 // BenchmarkReadWriteTxs opens the existing chains and modifies the Key-values by simulating read-write transactions

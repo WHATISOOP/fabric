@@ -17,8 +17,8 @@ limitations under the License.
 package samplesyscc
 
 import (
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // SampleSysCC example simple Chaincode implementation

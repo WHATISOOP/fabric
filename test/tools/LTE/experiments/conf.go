@@ -9,7 +9,7 @@ package experiments
 import (
 	"flag"
 
-	"github.com/WHATISOOP/fabric/test/tools/LTE/chainmgmt"
+	"github.com/whatisoop/fabric/test/tools/LTE/chainmgmt"
 )
 
 // txConf captures the transaction related configurations

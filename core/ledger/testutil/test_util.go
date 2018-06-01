@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/config"
+	"github.com/whatisoop/fabric/core/config"
 	"github.com/op/go-logging"
 	"github.com/spf13/viper"
 )

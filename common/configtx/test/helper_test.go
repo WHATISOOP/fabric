@@ -21,13 +21,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/msp"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/msp"
 	logging "github.com/op/go-logging"
 )
 
 func init() {
-	// Configuration is always specified relative to $GOPATH/github.com/WHATISOOP/fabric
+	// Configuration is always specified relative to $GOPATH/github.com/whatisoop/fabric
 	// This test will fail with the default configuration if executed in the package dir
 	// We are in common/configtx/test
 	os.Chdir(filepath.Join("..", "..", ".."))

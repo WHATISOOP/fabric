@@ -17,7 +17,7 @@ limitations under the License.
 package clilogging
 
 import (
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"

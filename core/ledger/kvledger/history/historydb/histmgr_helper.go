@@ -19,7 +19,7 @@ package historydb
 import (
 	"bytes"
 
-	"github.com/WHATISOOP/fabric/common/ledger/util"
+	"github.com/whatisoop/fabric/common/ledger/util"
 )
 
 var compositeKeySep = []byte{0x00}

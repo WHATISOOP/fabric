@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgermgmt"
-	ccprovider2 "github.com/WHATISOOP/fabric/core/mocks/ccprovider"
-	"github.com/WHATISOOP/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/ledger/ledgermgmt"
+	ccprovider2 "github.com/whatisoop/fabric/core/mocks/ccprovider"
+	"github.com/whatisoop/fabric/core/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

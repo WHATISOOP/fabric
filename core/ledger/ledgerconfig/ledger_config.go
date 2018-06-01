@@ -19,7 +19,7 @@ package ledgerconfig
 import (
 	"path/filepath"
 
-	"github.com/WHATISOOP/fabric/core/config"
+	"github.com/whatisoop/fabric/core/config"
 	"github.com/spf13/viper"
 )
 

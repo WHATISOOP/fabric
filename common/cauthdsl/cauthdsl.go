@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	mb "github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
+	mb "github.com/whatisoop/fabric/protos/msp"
 
 	"github.com/op/go-logging"
 )

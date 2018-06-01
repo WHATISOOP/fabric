@@ -26,7 +26,7 @@ import (
 
 	"crypto/elliptic"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 type ecdsaPrivateKey struct {

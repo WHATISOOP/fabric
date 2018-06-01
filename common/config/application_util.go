@@ -17,9 +17,9 @@ limitations under the License.
 package config
 
 import (
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	cb "github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 func applicationConfigGroup(orgID string, key string, value []byte) *cb.ConfigGroup {

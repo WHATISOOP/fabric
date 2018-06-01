@@ -23,29 +23,29 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	configtxtest "github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/common/genesis"
-	"github.com/WHATISOOP/fabric/common/localmsp"
-	"github.com/WHATISOOP/fabric/common/mocks/scc"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/core/chaincode"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/common/sysccprovider"
-	"github.com/WHATISOOP/fabric/core/deliverservice"
-	"github.com/WHATISOOP/fabric/core/deliverservice/blocksprovider"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgermgmt"
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/policy"
-	policymocks "github.com/WHATISOOP/fabric/core/policy/mocks"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/service"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/msp/mgmt/testtools"
-	peergossip "github.com/WHATISOOP/fabric/peer/gossip"
-	"github.com/WHATISOOP/fabric/peer/gossip/mocks"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	configtxtest "github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/common/genesis"
+	"github.com/whatisoop/fabric/common/localmsp"
+	"github.com/whatisoop/fabric/common/mocks/scc"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/core/chaincode"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/common/sysccprovider"
+	"github.com/whatisoop/fabric/core/deliverservice"
+	"github.com/whatisoop/fabric/core/deliverservice/blocksprovider"
+	"github.com/whatisoop/fabric/core/ledger/ledgermgmt"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/policy"
+	policymocks "github.com/whatisoop/fabric/core/policy/mocks"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/service"
+	"github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/msp/mgmt/testtools"
+	peergossip "github.com/whatisoop/fabric/peer/gossip"
+	"github.com/whatisoop/fabric/peer/gossip/mocks"
+	cb "github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
@@ -121,9 +121,9 @@ func TestConfigerInvokeInvalidParameters(t *testing.T) {
 }
 
 func TestConfigerInvokeJoinChainMissingParams(t *testing.T) {
-	viper.Set("peer.fileSystemPath", "/tmp/WHATISOOPtest/")
-	os.Mkdir("/tmp/WHATISOOPtest", 0755)
-	defer os.RemoveAll("/tmp/WHATISOOPtest/")
+	viper.Set("peer.fileSystemPath", "/tmp/whatisooptest/")
+	os.Mkdir("/tmp/whatisooptest", 0755)
+	defer os.RemoveAll("/tmp/whatisooptest/")
 
 	e := new(PeerConfiger)
 	stub := shim.NewMockStub("PeerConfiger", e)
@@ -141,9 +141,9 @@ func TestConfigerInvokeJoinChainMissingParams(t *testing.T) {
 }
 
 func TestConfigerInvokeJoinChainWrongParams(t *testing.T) {
-	viper.Set("peer.fileSystemPath", "/tmp/WHATISOOPtest/")
-	os.Mkdir("/tmp/WHATISOOPtest", 0755)
-	defer os.RemoveAll("/tmp/WHATISOOPtest/")
+	viper.Set("peer.fileSystemPath", "/tmp/whatisooptest/")
+	os.Mkdir("/tmp/whatisooptest", 0755)
+	defer os.RemoveAll("/tmp/whatisooptest/")
 
 	e := new(PeerConfiger)
 	stub := shim.NewMockStub("PeerConfiger", e)
@@ -163,14 +163,14 @@ func TestConfigerInvokeJoinChainWrongParams(t *testing.T) {
 func TestConfigerInvokeJoinChainCorrectParams(t *testing.T) {
 	sysccprovider.RegisterSystemChaincodeProviderFactory(&scc.MocksccProviderFactory{})
 
-	viper.Set("peer.fileSystemPath", "/tmp/WHATISOOPtest/")
+	viper.Set("peer.fileSystemPath", "/tmp/whatisooptest/")
 	viper.Set("chaincode.executetimeout", "3s")
-	os.Mkdir("/tmp/WHATISOOPtest", 0755)
+	os.Mkdir("/tmp/whatisooptest", 0755)
 
 	peer.MockInitialize()
 	ledgermgmt.InitializeTestEnv()
 	defer ledgermgmt.CleanupTestEnv()
-	defer os.RemoveAll("/tmp/WHATISOOPtest/")
+	defer os.RemoveAll("/tmp/whatisooptest/")
 
 	e := new(PeerConfiger)
 	stub := shim.NewMockStub("PeerConfiger", e)
@@ -277,9 +277,9 @@ func TestConfigerInvokeJoinChainCorrectParams(t *testing.T) {
 }
 
 func TestPeerConfiger_SubmittingOrdererGenesis(t *testing.T) {
-	viper.Set("peer.fileSystemPath", "/tmp/WHATISOOPtest/")
-	os.Mkdir("/tmp/WHATISOOPtest", 0755)
-	defer os.RemoveAll("/tmp/WHATISOOPtest/")
+	viper.Set("peer.fileSystemPath", "/tmp/whatisooptest/")
+	os.Mkdir("/tmp/whatisooptest", 0755)
+	defer os.RemoveAll("/tmp/whatisooptest/")
 
 	e := new(PeerConfiger)
 	stub := shim.NewMockStub("PeerConfiger", e)

@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
 
-	"github.com/WHATISOOP/fabric/protos/common"
-	putil "github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/protos/common"
+	putil "github.com/whatisoop/fabric/protos/utils"
 )
 
 func TestBlockfileMgrBlockReadWrite(t *testing.T) {

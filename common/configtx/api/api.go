@@ -17,10 +17,10 @@ limitations under the License.
 package api
 
 import (
-	"github.com/WHATISOOP/fabric/common/config"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/config"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/comm"
-	"github.com/WHATISOOP/fabric/core/deliverservice/blocksprovider"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/core/comm"
+	"github.com/whatisoop/fabric/core/deliverservice/blocksprovider"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/orderer"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

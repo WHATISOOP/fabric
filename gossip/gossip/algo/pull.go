@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/gossip/util"
 	"github.com/spf13/viper"
 )
 

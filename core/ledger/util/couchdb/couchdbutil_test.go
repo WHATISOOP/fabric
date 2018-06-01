@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
 )
 
 //Unit test of couch db util functionality

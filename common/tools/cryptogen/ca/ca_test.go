@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/ca"
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/csp"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/ca"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/csp"
 	"github.com/stretchr/testify/assert"
 )
 

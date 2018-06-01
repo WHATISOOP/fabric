@@ -28,9 +28,9 @@ import (
 
 	"bytes"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/ledger"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 var ccproviderLogger = flogging.MustGetLogger("ccprovider")
@@ -170,7 +170,7 @@ func (*CCInfoFSImpl) PutChaincode(depSpec *pb.ChaincodeDeploymentSpec) (CCPackag
 // until a later time in which they are fixed. The peer process on
 // the other hand requires the benefits of this cache and therefore
 // enables it.
-// TODO: (post v1) enable cache by default as soon as https://jira.WHATISOOP.org/browse/FAB-3785 is completed
+// TODO: (post v1) enable cache by default as soon as https://jira.whatisoop.org/browse/FAB-3785 is completed
 
 // ccInfoFSStorageMgr is the storage manager used either by the cache or if the
 // cache is bypassed
@@ -232,7 +232,7 @@ func CheckInsantiationPolicy(name, version string, cdLedger *ChaincodeData) erro
 	// policy. This check is there to ensure that this will not
 	// happen, i.e. that the peer will refuse to invoke the
 	// chaincode under these conditions. More info on
-	// https://jira.WHATISOOP.org/browse/FAB-3156
+	// https://jira.whatisoop.org/browse/FAB-3156
 	if ccdata.InstantiationPolicy != nil {
 		if !bytes.Equal(ccdata.InstantiationPolicy, cdLedger.InstantiationPolicy) {
 			return fmt.Errorf("Instantiation policy mismatch for cc %s/%s", name, version)

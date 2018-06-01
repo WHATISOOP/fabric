@@ -23,10 +23,10 @@ package configupdate
 import (
 	"fmt"
 
-	configtxapi "github.com/WHATISOOP/fabric/common/configtx/api"
-	"github.com/WHATISOOP/fabric/common/crypto"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	configtxapi "github.com/whatisoop/fabric/common/configtx/api"
+	"github.com/whatisoop/fabric/common/crypto"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/op/go-logging"
 )

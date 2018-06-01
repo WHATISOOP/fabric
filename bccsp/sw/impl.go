@@ -22,9 +22,9 @@ import (
 	"hash"
 	"reflect"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/common/errors"
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/common/errors"
+	"github.com/whatisoop/fabric/common/flogging"
 	"golang.org/x/crypto/sha3"
 )
 

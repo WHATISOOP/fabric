@@ -19,7 +19,7 @@ package msp
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core/config"
+	"github.com/whatisoop/fabric/core/config"
 	"github.com/stretchr/testify/assert"
 )
 

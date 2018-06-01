@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 )
 
 var vmLogger = flogging.MustGetLogger("container")

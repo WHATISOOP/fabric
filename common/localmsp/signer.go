@@ -19,9 +19,9 @@ package localmsp
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/crypto"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/crypto"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	cb "github.com/whatisoop/fabric/protos/common"
 )
 
 type mspSigner struct {

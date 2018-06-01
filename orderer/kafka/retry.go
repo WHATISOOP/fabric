@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"time"
 
-	localconfig "github.com/WHATISOOP/fabric/orderer/localconfig"
+	localconfig "github.com/whatisoop/fabric/orderer/localconfig"
 )
 
 type retryProcess struct {

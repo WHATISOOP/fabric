@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 //---- event hub framework ----

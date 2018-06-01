@@ -26,11 +26,11 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
-	"github.com/WHATISOOP/fabric/core/ledger/util/couchdb"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
+	"github.com/whatisoop/fabric/core/ledger/util/couchdb"
 )
 
 var logger = flogging.MustGetLogger("statecouchdb")

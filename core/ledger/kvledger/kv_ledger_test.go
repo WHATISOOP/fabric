@@ -21,13 +21,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
-	ledgertestutil "github.com/WHATISOOP/fabric/core/ledger/testutil"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/ledger/queryresult"
-	"github.com/WHATISOOP/fabric/protos/peer"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
+	ledgertestutil "github.com/whatisoop/fabric/core/ledger/testutil"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/ledger/queryresult"
+	"github.com/whatisoop/fabric/protos/peer"
+	putils "github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

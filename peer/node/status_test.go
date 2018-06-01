@@ -19,11 +19,11 @@ package node
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core"
-	"github.com/WHATISOOP/fabric/core/comm"
-	testpb "github.com/WHATISOOP/fabric/core/comm/testdata/grpc"
-	"github.com/WHATISOOP/fabric/core/peer"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core"
+	"github.com/whatisoop/fabric/core/comm"
+	testpb "github.com/whatisoop/fabric/core/comm/testdata/grpc"
+	"github.com/whatisoop/fabric/core/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"

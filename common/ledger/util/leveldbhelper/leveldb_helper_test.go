@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

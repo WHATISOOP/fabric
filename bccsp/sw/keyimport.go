@@ -25,8 +25,8 @@ import (
 	"crypto/x509"
 	"reflect"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/utils"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/utils"
 )
 
 type aes256ImportKeyOptsKeyImporter struct{}

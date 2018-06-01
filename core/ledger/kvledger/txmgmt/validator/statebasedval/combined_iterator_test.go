@@ -19,10 +19,10 @@ package statebasedval
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 func TestCombinedIterator(t *testing.T) {

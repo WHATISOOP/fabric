@@ -23,21 +23,21 @@ import (
 	"path/filepath"
 	"testing"
 
-	configtxtest "github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/common/localmsp"
-	mscc "github.com/WHATISOOP/fabric/common/mocks/scc"
-	"github.com/WHATISOOP/fabric/core/comm"
-	ccp "github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/common/sysccprovider"
-	"github.com/WHATISOOP/fabric/core/deliverservice"
-	"github.com/WHATISOOP/fabric/core/deliverservice/blocksprovider"
-	"github.com/WHATISOOP/fabric/core/mocks/ccprovider"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/service"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/msp/mgmt/testtools"
-	peergossip "github.com/WHATISOOP/fabric/peer/gossip"
-	"github.com/WHATISOOP/fabric/peer/gossip/mocks"
+	configtxtest "github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/common/localmsp"
+	mscc "github.com/whatisoop/fabric/common/mocks/scc"
+	"github.com/whatisoop/fabric/core/comm"
+	ccp "github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/common/sysccprovider"
+	"github.com/whatisoop/fabric/core/deliverservice"
+	"github.com/whatisoop/fabric/core/deliverservice/blocksprovider"
+	"github.com/whatisoop/fabric/core/mocks/ccprovider"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/service"
+	"github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/msp/mgmt/testtools"
+	peergossip "github.com/whatisoop/fabric/peer/gossip"
+	"github.com/whatisoop/fabric/peer/gossip/mocks"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
@@ -121,7 +121,7 @@ func TestInitChain(t *testing.T) {
 }
 
 func TestInitialize(t *testing.T) {
-	viper.Set("peer.fileSystemPath", "/var/WHATISOOP/test/")
+	viper.Set("peer.fileSystemPath", "/var/whatisoop/test/")
 
 	// we mock this because we can't import the chaincode package lest we create an import cycle
 	ccp.RegisterChaincodeProviderFactory(&ccprovider.MockCcProviderFactory{})
@@ -131,8 +131,8 @@ func TestInitialize(t *testing.T) {
 }
 
 func TestCreateChainFromBlock(t *testing.T) {
-	viper.Set("peer.fileSystemPath", "/var/WHATISOOP/test/")
-	defer os.RemoveAll("/var/WHATISOOP/test/")
+	viper.Set("peer.fileSystemPath", "/var/whatisoop/test/")
+	defer os.RemoveAll("/var/whatisoop/test/")
 	testChainID := "mytestchainid"
 	block, err := configtxtest.MakeGenesisBlock(testChainID)
 	if err != nil {

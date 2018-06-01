@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/WHATISOOP/fabric/core/chaincode/platforms/util"
-	cutil "github.com/WHATISOOP/fabric/core/container/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/chaincode/platforms/util"
+	cutil "github.com/whatisoop/fabric/core/container/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // Platform for the CAR type

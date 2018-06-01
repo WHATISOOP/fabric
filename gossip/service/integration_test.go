@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/deliverservice"
-	"github.com/WHATISOOP/fabric/core/deliverservice/blocksprovider"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/election"
-	"github.com/WHATISOOP/fabric/gossip/identity"
-	"github.com/WHATISOOP/fabric/gossip/state"
+	"github.com/whatisoop/fabric/core/deliverservice"
+	"github.com/whatisoop/fabric/core/deliverservice/blocksprovider"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/election"
+	"github.com/whatisoop/fabric/gossip/identity"
+	"github.com/whatisoop/fabric/gossip/state"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

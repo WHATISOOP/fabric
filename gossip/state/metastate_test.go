@@ -19,7 +19,7 @@ package state
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
 )
 

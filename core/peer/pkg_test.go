@@ -23,13 +23,13 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/golang/protobuf/proto"
-	configtxtest "github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/core/comm"
-	testpb "github.com/WHATISOOP/fabric/core/comm/testdata/grpc"
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	mspproto "github.com/WHATISOOP/fabric/protos/msp"
+	configtxtest "github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/core/comm"
+	testpb "github.com/whatisoop/fabric/core/comm/testdata/grpc"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
+	mspproto "github.com/whatisoop/fabric/protos/msp"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
@@ -166,8 +166,8 @@ func TestUpdateRootsFromConfigBlock(t *testing.T) {
 			"Org1-server1-key.pem"))
 		viper.Set("peer.tls.rootcert.file", filepath.Join("testdata",
 			"Org1-cert.pem"))
-		viper.Set("peer.fileSystemPath", "/var/WHATISOOP/test/")
-		defer os.RemoveAll("/var/WHATISOOP/test/")
+		viper.Set("peer.fileSystemPath", "/var/whatisoop/test/")
+		defer os.RemoveAll("/var/whatisoop/test/")
 		err := peer.CreateChainFromBlock(block)
 		if err != nil {
 			t.Fatalf("Failed to create config block (%s)", err)

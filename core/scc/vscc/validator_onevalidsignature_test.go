@@ -27,26 +27,26 @@ import (
 	"bytes"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/cauthdsl"
-	lm "github.com/WHATISOOP/fabric/common/mocks/ledger"
-	"github.com/WHATISOOP/fabric/common/mocks/scc"
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/common/ccpackage"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/common/sysccprovider"
-	cutils "github.com/WHATISOOP/fabric/core/container/util"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	per "github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/policy"
-	"github.com/WHATISOOP/fabric/core/scc/lscc"
-	"github.com/WHATISOOP/fabric/msp"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/msp/mgmt/testtools"
-	"github.com/WHATISOOP/fabric/protos/common"
-	mspproto "github.com/WHATISOOP/fabric/protos/msp"
-	"github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/cauthdsl"
+	lm "github.com/whatisoop/fabric/common/mocks/ledger"
+	"github.com/whatisoop/fabric/common/mocks/scc"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/common/ccpackage"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/common/sysccprovider"
+	cutils "github.com/whatisoop/fabric/core/container/util"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	per "github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/policy"
+	"github.com/whatisoop/fabric/core/scc/lscc"
+	"github.com/whatisoop/fabric/msp"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/msp/mgmt/testtools"
+	"github.com/whatisoop/fabric/protos/common"
+	mspproto "github.com/whatisoop/fabric/protos/msp"
+	"github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -798,7 +798,7 @@ func TestAlreadyDeployed(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1117,7 +1117,7 @@ func TestValidateUpgradeOK(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1194,7 +1194,7 @@ func TestInvalidateUpgradeBadVersion(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1269,7 +1269,7 @@ func TestValidateUpgradeWithPoliciesOK(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1348,7 +1348,7 @@ func TestValidateUpgradeWithPoliciesFail(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 

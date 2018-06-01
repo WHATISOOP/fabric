@@ -25,9 +25,9 @@ import (
 
 	"bytes"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 //----- CDSData ------

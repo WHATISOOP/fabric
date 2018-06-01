@@ -19,7 +19,7 @@ package policies
 import (
 	"fmt"
 
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

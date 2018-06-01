@@ -12,11 +12,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	mockmsp "github.com/WHATISOOP/fabric/common/mocks/msp"
-	"github.com/WHATISOOP/fabric/common/util"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	mockmsp "github.com/whatisoop/fabric/common/mocks/msp"
+	"github.com/whatisoop/fabric/common/util"
+	cb "github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

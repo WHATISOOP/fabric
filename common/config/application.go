@@ -19,7 +19,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/common/config/msp"
 )
 
 const (

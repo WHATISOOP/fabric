@@ -24,8 +24,8 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/peer/common"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/peer/common"
 )
 
 //This is where all initializations take place. These closely follow CLI

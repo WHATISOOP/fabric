@@ -25,7 +25,7 @@ import (
 
 	"crypto/hmac"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 type ecdsaPublicKeyKeyDeriver struct{}

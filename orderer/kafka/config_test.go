@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/Shopify/sarama"
-	localconfig "github.com/WHATISOOP/fabric/orderer/localconfig"
-	"github.com/WHATISOOP/fabric/orderer/mocks/util"
+	localconfig "github.com/whatisoop/fabric/orderer/localconfig"
+	"github.com/whatisoop/fabric/orderer/mocks/util"
 	"github.com/stretchr/testify/assert"
 )
 

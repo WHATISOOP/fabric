@@ -30,7 +30,7 @@ import (
 	"encoding/pem"
 
 	"github.com/Shopify/sarama"
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/viper"
 )

@@ -19,8 +19,8 @@ package lockbasedtxmgr
 import (
 	"errors"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
 )
 
 // LockBasedTxSimulator is a transaction simulator used in `LockBasedTxMgr`

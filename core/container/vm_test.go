@@ -21,9 +21,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/testutil"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/testutil"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 )
@@ -53,7 +53,7 @@ func TestVM_BuildImage_ChaincodeLocal(t *testing.T) {
 		return
 	}
 	// Build the spec
-	chaincodePath := "github.com/WHATISOOP/fabric/examples/chaincode/go/chaincode_example01"
+	chaincodePath := "github.com/whatisoop/fabric/examples/chaincode/go/chaincode_example01"
 	spec := &pb.ChaincodeSpec{Type: pb.ChaincodeSpec_GOLANG,
 		ChaincodeId: &pb.ChaincodeID{Name: "ex01", Path: chaincodePath},
 		Input:       &pb.ChaincodeInput{Args: util.ToChaincodeArgs("f")}}

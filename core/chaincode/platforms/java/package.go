@@ -23,8 +23,8 @@ import (
 
 	"errors"
 
-	cutil "github.com/WHATISOOP/fabric/core/container/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	cutil "github.com/whatisoop/fabric/core/container/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 //tw is expected to have the chaincode in it from GenerateHashcode.

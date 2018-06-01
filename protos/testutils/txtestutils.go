@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"os"
 
-	mmsp "github.com/WHATISOOP/fabric/common/mocks/msp"
-	"github.com/WHATISOOP/fabric/msp"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/msp/mgmt/testtools"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	mmsp "github.com/whatisoop/fabric/common/mocks/msp"
+	"github.com/whatisoop/fabric/msp"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/msp/mgmt/testtools"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	putils "github.com/whatisoop/fabric/protos/utils"
 )
 
 var (

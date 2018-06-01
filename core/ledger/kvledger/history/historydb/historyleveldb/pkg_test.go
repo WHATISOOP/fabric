@@ -21,14 +21,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage"
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage/fsblkstorage"
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/history/historydb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/txmgr"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/txmgr/lockbasedtxmgr"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage/fsblkstorage"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/history/historydb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/txmgr/lockbasedtxmgr"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
 	"github.com/spf13/viper"
 )
 

@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	mockconfig "github.com/WHATISOOP/fabric/common/mocks/config"
-	mockblockcutter "github.com/WHATISOOP/fabric/orderer/mocks/blockcutter"
-	mockmultichain "github.com/WHATISOOP/fabric/orderer/mocks/multichain"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	mockconfig "github.com/whatisoop/fabric/common/mocks/config"
+	mockblockcutter "github.com/whatisoop/fabric/orderer/mocks/blockcutter"
+	mockmultichain "github.com/whatisoop/fabric/orderer/mocks/multichain"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"

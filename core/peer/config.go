@@ -36,9 +36,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/WHATISOOP/fabric/core/comm"
-	"github.com/WHATISOOP/fabric/core/config"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/comm"
+	"github.com/whatisoop/fabric/core/config"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // Is the configuration cached?

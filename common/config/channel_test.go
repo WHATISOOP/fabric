@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/common/util"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/common/util"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"

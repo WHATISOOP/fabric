@@ -19,8 +19,8 @@ package msptesttools
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/msp/mgmt"
 )
 
 func TestFakeSetup(t *testing.T) {

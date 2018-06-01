@@ -24,8 +24,8 @@ import (
 
 	"sync"
 
-	"github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
 )
 

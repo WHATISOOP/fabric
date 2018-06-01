@@ -22,8 +22,8 @@ import (
 
 	"errors"
 
-	"github.com/WHATISOOP/fabric/peer/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/peer/common"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/spf13/cobra"
 )

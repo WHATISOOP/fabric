@@ -19,8 +19,8 @@ package filter
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/gossip/discovery"
+	"github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/discovery"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -19,7 +19,7 @@ package filter
 import (
 	"fmt"
 
-	ab "github.com/WHATISOOP/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/common"
 )
 
 // Action is used to express the output of a rule

@@ -23,11 +23,11 @@ import (
 
 	"errors"
 
-	mockpolicies "github.com/WHATISOOP/fabric/common/mocks/policies"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/protos/common"
-	mspproto "github.com/WHATISOOP/fabric/protos/msp"
+	mockpolicies "github.com/whatisoop/fabric/common/mocks/policies"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/protos/common"
+	mspproto "github.com/whatisoop/fabric/protos/msp"
 )
 
 type ChannelPolicyManagerGetter struct{}

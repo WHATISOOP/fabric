@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/utils"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/utils"
 )
 
 // bccspCryptoSigner is the BCCSP-based implementation of a crypto.Signer

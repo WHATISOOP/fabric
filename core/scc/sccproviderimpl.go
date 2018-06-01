@@ -19,9 +19,9 @@ package scc
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/core/common/sysccprovider"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/common/sysccprovider"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/peer"
 )
 
 // sccProviderFactory implements the sysccprovider.SystemChaincodeProviderFactory

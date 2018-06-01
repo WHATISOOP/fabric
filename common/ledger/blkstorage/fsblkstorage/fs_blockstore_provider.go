@@ -17,9 +17,9 @@ limitations under the License.
 package fsblkstorage
 
 import (
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage"
-	"github.com/WHATISOOP/fabric/common/ledger/util"
-	"github.com/WHATISOOP/fabric/common/ledger/util/leveldbhelper"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage"
+	"github.com/whatisoop/fabric/common/ledger/util"
+	"github.com/whatisoop/fabric/common/ledger/util/leveldbhelper"
 )
 
 // FsBlockstoreProvider provides handle to block storage - this is not thread-safe

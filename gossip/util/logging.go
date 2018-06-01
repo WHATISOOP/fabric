@@ -19,7 +19,7 @@ package util
 import (
 	"sync"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 	"github.com/op/go-logging"
 )
 

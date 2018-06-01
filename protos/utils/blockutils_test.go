@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	configtxtest "github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/protos/common"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	configtxtest "github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/protos/common"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

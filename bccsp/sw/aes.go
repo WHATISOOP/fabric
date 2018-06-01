@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 // GetRandomBytes returns len random looking bytes

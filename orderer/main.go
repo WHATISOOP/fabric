@@ -25,25 +25,25 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	"github.com/WHATISOOP/fabric/common/crypto"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/comm"
-	"github.com/WHATISOOP/fabric/orderer/common/bootstrap/file"
-	"github.com/WHATISOOP/fabric/orderer/kafka"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
-	"github.com/WHATISOOP/fabric/orderer/localconfig"
-	"github.com/WHATISOOP/fabric/orderer/metadata"
-	"github.com/WHATISOOP/fabric/orderer/multichain"
-	"github.com/WHATISOOP/fabric/orderer/solo"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	"github.com/whatisoop/fabric/common/crypto"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/comm"
+	"github.com/whatisoop/fabric/orderer/common/bootstrap/file"
+	"github.com/whatisoop/fabric/orderer/kafka"
+	"github.com/whatisoop/fabric/orderer/ledger"
+	"github.com/whatisoop/fabric/orderer/localconfig"
+	"github.com/whatisoop/fabric/orderer/metadata"
+	"github.com/whatisoop/fabric/orderer/multichain"
+	"github.com/whatisoop/fabric/orderer/solo"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/Shopify/sarama"
-	"github.com/WHATISOOP/fabric/common/localmsp"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/common/localmsp"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
 	logging "github.com/op/go-logging"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
@@ -52,7 +52,7 @@ var logger = logging.MustGetLogger("orderer/main")
 
 //command line flags
 var (
-	app = kingpin.New("orderer", "WHATISOOP Fabric orderer node")
+	app = kingpin.New("orderer", "whatisoop Fabric orderer node")
 
 	start   = app.Command("start", "Start the orderer node").Default()
 	version = app.Command("version", "Show version information")

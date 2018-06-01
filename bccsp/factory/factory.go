@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/common/flogging"
 )
 
 var (

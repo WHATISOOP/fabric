@@ -28,7 +28,7 @@ import (
 
 	"path/filepath"
 
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/csp"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/csp"
 )
 
 type CA struct {

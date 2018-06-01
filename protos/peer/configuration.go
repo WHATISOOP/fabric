@@ -19,8 +19,8 @@ package peer
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/msp"
 
 	"github.com/golang/protobuf/proto"
 )

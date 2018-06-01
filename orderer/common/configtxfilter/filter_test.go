@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"testing"
 
-	mockconfigtx "github.com/WHATISOOP/fabric/common/mocks/configtx"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	mockconfigtx "github.com/whatisoop/fabric/common/mocks/configtx"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

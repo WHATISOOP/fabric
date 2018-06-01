@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/msp/mgmt/testtools"
+	"github.com/whatisoop/fabric/msp/mgmt/testtools"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
@@ -33,7 +33,7 @@ func TestStartCmd(t *testing.T) {
 	viper.Set("peer.address", "0.0.0.0:6051")
 	viper.Set("peer.listenAddress", "0.0.0.0:6051")
 	viper.Set("peer.chaincodeListenAddress", "0.0.0.0:6052")
-	viper.Set("peer.fileSystemPath", "/tmp/WHATISOOP/test")
+	viper.Set("peer.fileSystemPath", "/tmp/whatisoop/test")
 	viper.Set("chaincode.executetimeout", "30s")
 	overrideLogModules := []string{"msp", "gossip", "ledger", "cauthdsl", "policies", "grpc"}
 	for _, module := range overrideLogModules {
@@ -57,7 +57,7 @@ loop:
 		case <-timer.C:
 			t.Errorf("timeout waiting for start command")
 		default:
-			_, err := os.Stat("/tmp/WHATISOOP/test/peer.pid")
+			_, err := os.Stat("/tmp/whatisoop/test/peer.pid")
 			if err != nil {
 				time.Sleep(200 * time.Millisecond)
 			} else {
@@ -66,7 +66,7 @@ loop:
 		}
 	}
 
-	pidFile, err := ioutil.ReadFile("/tmp/WHATISOOP/test/peer.pid")
+	pidFile, err := ioutil.ReadFile("/tmp/whatisoop/test/peer.pid")
 	if err != nil {
 		t.Fail()
 		t.Errorf("can't delete pid file")
@@ -77,7 +77,7 @@ loop:
 		t.Errorf("Error trying to kill -15 pid %d: %s", pid, killerr)
 	}
 
-	os.RemoveAll("/tmp/WHATISOOP/test")
+	os.RemoveAll("/tmp/whatisoop/test")
 }
 
 func TestWritePid(t *testing.T) {
@@ -89,7 +89,7 @@ func TestWritePid(t *testing.T) {
 	}{
 		{
 			name:     "readPid success",
-			fileName: "/tmp/WHATISOOP/test/peer.pid",
+			fileName: "/tmp/whatisoop/test/peer.pid",
 			pid:      os.Getpid(),
 			expected: true,
 		},

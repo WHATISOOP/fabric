@@ -20,9 +20,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	. "github.com/WHATISOOP/fabric/orderer/ledger"
-	fileledger "github.com/WHATISOOP/fabric/orderer/ledger/file"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	. "github.com/whatisoop/fabric/orderer/ledger"
+	fileledger "github.com/whatisoop/fabric/orderer/ledger/file"
 )
 
 func init() {
@@ -38,7 +38,7 @@ type fileLedgerTestEnv struct {
 
 func (env *fileLedgerTestEnv) Initialize() (ledgerTestFactory, error) {
 	var err error
-	location, err := ioutil.TempDir("", "WHATISOOP")
+	location, err := ioutil.TempDir("", "whatisoop")
 	if err != nil {
 		return nil, err
 	}

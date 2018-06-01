@@ -23,13 +23,13 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/WHATISOOP/fabric/common/tools/protolator"
+	"github.com/whatisoop/fabric/common/tools/protolator"
 
 	// Import these to register the proto types
-	_ "github.com/WHATISOOP/fabric/protos/common"
-	_ "github.com/WHATISOOP/fabric/protos/msp"
-	_ "github.com/WHATISOOP/fabric/protos/orderer"
-	_ "github.com/WHATISOOP/fabric/protos/peer"
+	_ "github.com/whatisoop/fabric/protos/common"
+	_ "github.com/whatisoop/fabric/protos/msp"
+	_ "github.com/whatisoop/fabric/protos/orderer"
+	_ "github.com/whatisoop/fabric/protos/peer"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/gorilla/mux"

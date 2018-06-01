@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"runtime"
 
-	common "github.com/WHATISOOP/fabric/common/metadata"
+	common "github.com/whatisoop/fabric/common/metadata"
 )
 
 // package-scoped variables

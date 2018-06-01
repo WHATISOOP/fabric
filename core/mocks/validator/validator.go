@@ -17,8 +17,8 @@ limitations under the License.
 package validator
 
 import (
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 // MockValidator implements a mock validation useful for testing

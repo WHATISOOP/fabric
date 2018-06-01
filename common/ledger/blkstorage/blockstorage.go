@@ -19,9 +19,9 @@ package blkstorage
 import (
 	"errors"
 
-	"github.com/WHATISOOP/fabric/common/ledger"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/ledger"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 // IndexableAttr represents an indexable attribute

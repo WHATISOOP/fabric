@@ -22,7 +22,7 @@ import (
 	"hash"
 	"reflect"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 type MockBCCSP struct {

@@ -19,7 +19,7 @@ package sw
 import (
 	"hash"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 type hasher struct {

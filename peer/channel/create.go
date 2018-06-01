@@ -23,14 +23,14 @@ import (
 	"errors"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/configtx"
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	localsigner "github.com/WHATISOOP/fabric/common/localmsp"
-	"github.com/WHATISOOP/fabric/common/util"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/peer/common"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	localsigner "github.com/whatisoop/fabric/common/localmsp"
+	"github.com/whatisoop/fabric/common/util"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/peer/common"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/spf13/cobra"
 )
 

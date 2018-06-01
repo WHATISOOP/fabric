@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"testing"
 
-	configtxtest "github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/util"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/ledger/queryresult"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	configtxtest "github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/util"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/ledger/queryresult"
+	"github.com/whatisoop/fabric/protos/peer"
 	"github.com/spf13/viper"
 )
 

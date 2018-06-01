@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	mocks2 "github.com/WHATISOOP/fabric/bccsp/mocks"
-	"github.com/WHATISOOP/fabric/bccsp/sw/mocks"
+	mocks2 "github.com/whatisoop/fabric/bccsp/mocks"
+	"github.com/whatisoop/fabric/bccsp/sw/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

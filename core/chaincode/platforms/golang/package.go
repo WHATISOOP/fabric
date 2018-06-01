@@ -24,9 +24,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	ccutil "github.com/WHATISOOP/fabric/core/chaincode/platforms/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	ccutil "github.com/whatisoop/fabric/core/chaincode/platforms/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 var includeFileTypes = map[string]bool{

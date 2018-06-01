@@ -22,14 +22,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	configtxtest "github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage/fsblkstorage"
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/ledger/queryresult"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	configtxtest "github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage/fsblkstorage"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/ledger/queryresult"
+	putils "github.com/whatisoop/fabric/protos/utils"
 	"github.com/spf13/viper"
 )
 

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/WHATISOOP/fabric/common/metadata"
+	"github.com/whatisoop/fabric/common/metadata"
 	"github.com/spf13/cobra"
 )
 

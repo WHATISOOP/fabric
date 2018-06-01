@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/WHATISOOP/fabric/core/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/testutil"
 
 	"fmt"
 )

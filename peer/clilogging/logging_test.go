@@ -19,7 +19,7 @@ package clilogging
 import (
 	"testing"
 
-	"github.com/WHATISOOP/fabric/peer/common"
+	"github.com/whatisoop/fabric/peer/common"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )

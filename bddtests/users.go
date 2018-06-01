@@ -19,7 +19,7 @@ package bddtests
 import (
 	"fmt"
 
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // UserRegistration represents a user in the peer network

@@ -20,8 +20,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

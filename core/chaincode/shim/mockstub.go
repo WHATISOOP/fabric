@@ -25,9 +25,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/protos/ledger/queryresult"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/protos/ledger/queryresult"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/op/go-logging"
 )
 

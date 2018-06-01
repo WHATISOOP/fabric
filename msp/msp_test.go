@@ -25,10 +25,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/sw"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/protos/msp"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/sw"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
 )
 

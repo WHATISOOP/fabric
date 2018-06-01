@@ -17,10 +17,10 @@ limitations under the License.
 package rwsetutil
 
 import (
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/WHATISOOP/fabric/core/ledger/util"
-	"github.com/WHATISOOP/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/core/ledger/util"
+	"github.com/whatisoop/fabric/protos/ledger/rwset/kvrwset"
 )
 
 var logger = flogging.MustGetLogger("rwsetutil")

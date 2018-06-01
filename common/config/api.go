@@ -21,9 +21,9 @@ package config
 import (
 	"time"
 
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // Org stores the common organizational config

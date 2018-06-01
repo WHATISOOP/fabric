@@ -26,11 +26,11 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/comm"
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
-	ehpb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/comm"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
+	ehpb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 var consumerLogger = flogging.MustGetLogger("eventhub_consumer")

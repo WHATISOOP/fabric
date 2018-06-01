@@ -23,11 +23,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/gossip"
-	"github.com/WHATISOOP/fabric/gossip/identity"
-	"github.com/WHATISOOP/fabric/gossip/util"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/gossip"
+	"github.com/whatisoop/fabric/gossip/identity"
+	"github.com/whatisoop/fabric/gossip/util"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
 )

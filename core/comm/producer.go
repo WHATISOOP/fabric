@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/flogging"
 	"google.golang.org/grpc"
 )
 

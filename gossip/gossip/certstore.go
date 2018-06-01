@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/gossip/gossip/pull"
-	"github.com/WHATISOOP/fabric/gossip/identity"
-	"github.com/WHATISOOP/fabric/gossip/util"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/gossip/pull"
+	"github.com/whatisoop/fabric/gossip/identity"
+	"github.com/whatisoop/fabric/gossip/util"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 	"github.com/op/go-logging"
 )
 

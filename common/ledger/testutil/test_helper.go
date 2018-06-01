@@ -20,13 +20,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/common/util"
-	lutils "github.com/WHATISOOP/fabric/core/ledger/util"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	ptestutils "github.com/WHATISOOP/fabric/protos/testutils"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/common/util"
+	lutils "github.com/whatisoop/fabric/core/ledger/util"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	ptestutils "github.com/whatisoop/fabric/protos/testutils"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 //BlockGenerator generates a series of blocks for testing

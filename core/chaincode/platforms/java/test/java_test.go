@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/container"
-	"github.com/WHATISOOP/fabric/core/testutil"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/container"
+	"github.com/whatisoop/fabric/core/testutil"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 func TestMain(m *testing.M) {

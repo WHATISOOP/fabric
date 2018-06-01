@@ -19,9 +19,9 @@ package service
 import (
 	"reflect"
 
-	"github.com/WHATISOOP/fabric/common/config"
+	"github.com/whatisoop/fabric/common/config"
 
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 // Config enumerates the configuration methods required by gossip

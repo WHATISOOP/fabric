@@ -20,7 +20,7 @@ import (
 
 	"crypto/sha256"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 type aesPrivateKey struct {

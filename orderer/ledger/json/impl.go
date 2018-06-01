@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	ledger "github.com/WHATISOOP/fabric/orderer/ledger"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	ledger "github.com/whatisoop/fabric/orderer/ledger"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 	"github.com/op/go-logging"
 
 	"github.com/golang/protobuf/jsonpb"

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgermgmt"
-	"github.com/WHATISOOP/fabric/protos/common"
-	benchcommon "github.com/WHATISOOP/fabric/test/tools/LTE/common"
+	"github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger/ledgermgmt"
+	"github.com/whatisoop/fabric/protos/common"
+	benchcommon "github.com/whatisoop/fabric/test/tools/LTE/common"
 )
 
 // ChainID is a type used for the ids for the chains for experiments

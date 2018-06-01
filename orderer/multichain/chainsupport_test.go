@@ -20,13 +20,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	mockconfigtx "github.com/WHATISOOP/fabric/common/mocks/configtx"
-	"github.com/WHATISOOP/fabric/common/mocks/crypto"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	mockconfigtx "github.com/whatisoop/fabric/common/mocks/configtx"
+	"github.com/whatisoop/fabric/common/mocks/crypto"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	"github.com/whatisoop/fabric/orderer/ledger"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

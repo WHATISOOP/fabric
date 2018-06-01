@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/WHATISOOP/fabric/common/metadata"
-	"github.com/WHATISOOP/fabric/core/config"
+	"github.com/whatisoop/fabric/common/metadata"
+	"github.com/whatisoop/fabric/core/config"
 	"github.com/spf13/viper"
 )
 

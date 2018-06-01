@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/peer/common"
+	"github.com/whatisoop/fabric/peer/common"
 	"github.com/stretchr/testify/assert"
 )
 

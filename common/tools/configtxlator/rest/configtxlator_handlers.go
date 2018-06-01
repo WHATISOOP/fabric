@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/WHATISOOP/fabric/common/tools/configtxlator/sanitycheck"
-	"github.com/WHATISOOP/fabric/common/tools/configtxlator/update"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/tools/configtxlator/sanitycheck"
+	"github.com/whatisoop/fabric/common/tools/configtxlator/update"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

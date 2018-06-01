@@ -22,12 +22,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	cl "github.com/WHATISOOP/fabric/common/ledger"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	cl "github.com/whatisoop/fabric/common/ledger"
+	"github.com/whatisoop/fabric/orderer/ledger"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/protos/peer"
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"
 )
@@ -45,7 +45,7 @@ type testEnv struct {
 }
 
 func initialize(t *testing.T) (*testEnv, *fileLedger) {
-	name, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	name, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.NoError(t, err, "Error creating temp dir: %s", err)
 
 	flf := New(name).(*fileLedgerFactory)

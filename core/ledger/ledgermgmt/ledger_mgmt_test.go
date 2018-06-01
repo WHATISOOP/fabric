@@ -22,9 +22,9 @@ import (
 
 	"os"
 
-	"github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger"
+	"github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger"
 	"github.com/spf13/viper"
 )
 

@@ -19,7 +19,7 @@ package crypto
 import (
 	"testing"
 
-	crypto "github.com/WHATISOOP/fabric/common/crypto"
+	crypto "github.com/whatisoop/fabric/common/crypto"
 )
 
 func TestLocalSignerInterface(t *testing.T) {

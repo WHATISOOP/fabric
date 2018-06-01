@@ -19,8 +19,8 @@ package config
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/config/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/config/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
 )
 
 // ConsortiumProtos holds the config protos for the consortium config

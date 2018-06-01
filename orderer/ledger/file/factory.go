@@ -19,9 +19,9 @@ package fileledger
 import (
 	"sync"
 
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage"
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage/fsblkstorage"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage/fsblkstorage"
+	"github.com/whatisoop/fabric/orderer/ledger"
 )
 
 type fileLedgerFactory struct {

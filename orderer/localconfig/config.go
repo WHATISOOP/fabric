@@ -20,18 +20,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/viperutil"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/viperutil"
 
 	"github.com/Shopify/sarama"
 	"github.com/op/go-logging"
 	"github.com/spf13/viper"
 
-	cf "github.com/WHATISOOP/fabric/core/config"
+	cf "github.com/whatisoop/fabric/core/config"
 
 	"path/filepath"
 
-	bccsp "github.com/WHATISOOP/fabric/bccsp/factory"
+	bccsp "github.com/whatisoop/fabric/bccsp/factory"
 )
 
 const (
@@ -181,8 +181,8 @@ var defaults = TopLevel{
 		HistorySize: 10000,
 	},
 	FileLedger: FileLedger{
-		Location: "/var/WHATISOOP/production/orderer",
-		Prefix:   "WHATISOOP-fabric-ordererledger",
+		Location: "/var/whatisoop/production/orderer",
+		Prefix:   "whatisoop-fabric-ordererledger",
 	},
 	Kafka: Kafka{
 		Retry: Retry{

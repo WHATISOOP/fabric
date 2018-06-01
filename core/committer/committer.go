@@ -16,7 +16,7 @@ limitations under the License.
 
 package committer
 
-import "github.com/WHATISOOP/fabric/protos/common"
+import "github.com/whatisoop/fabric/protos/common"
 
 // Committer is the interface supported by committers
 // The only committer is noopssinglechain committer.

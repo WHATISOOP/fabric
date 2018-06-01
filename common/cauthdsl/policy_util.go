@@ -17,8 +17,8 @@ limitations under the License.
 package cauthdsl
 
 import (
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 // TemplatePolicy creates a headerless configuration item representing a policy for a given key

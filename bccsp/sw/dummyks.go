@@ -18,7 +18,7 @@ package sw
 import (
 	"errors"
 
-	"github.com/WHATISOOP/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp"
 )
 
 // NewDummyKeyStore instantiate a dummy key store

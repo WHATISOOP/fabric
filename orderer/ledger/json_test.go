@@ -20,10 +20,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	. "github.com/WHATISOOP/fabric/orderer/ledger"
-	jsonledger "github.com/WHATISOOP/fabric/orderer/ledger/json"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	. "github.com/whatisoop/fabric/orderer/ledger"
+	jsonledger "github.com/whatisoop/fabric/orderer/ledger/json"
+	cb "github.com/whatisoop/fabric/protos/common"
 )
 
 var genesisBlock = cb.NewBlock(0, nil)
@@ -41,7 +41,7 @@ type jsonLedgerTestEnv struct {
 
 func (env *jsonLedgerTestEnv) Initialize() (ledgerTestFactory, error) {
 	var err error
-	location, err := ioutil.TempDir("", "WHATISOOP")
+	location, err := ioutil.TempDir("", "whatisoop")
 	if err != nil {
 		return nil, err
 	}

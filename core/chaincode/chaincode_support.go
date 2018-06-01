@@ -31,16 +31,16 @@ import (
 
 	"strings"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/chaincode/platforms"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/core/container"
-	"github.com/WHATISOOP/fabric/core/container/api"
-	"github.com/WHATISOOP/fabric/core/container/ccintf"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/chaincode/platforms"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/core/container"
+	"github.com/whatisoop/fabric/core/container/api"
+	"github.com/whatisoop/fabric/core/container/ccintf"
+	"github.com/whatisoop/fabric/core/ledger"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 type key string

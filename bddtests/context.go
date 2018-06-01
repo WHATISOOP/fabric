@@ -23,7 +23,7 @@ import (
 
 	"github.com/DATA-DOG/godog"
 	"github.com/DATA-DOG/godog/gherkin"
-	"github.com/WHATISOOP/fabric/common/util"
+	"github.com/whatisoop/fabric/common/util"
 )
 
 // BDDContext represents the current context for the executing scenario.  Commensurate concept of 'context' from behave testing.

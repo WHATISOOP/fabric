@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"WHATISOOP/cci/appinit"
-	"WHATISOOP/cci/org/WHATISOOP/chaincode/example02"
-	"WHATISOOP/ccs"
+	"whatisoop/cci/appinit"
+	"whatisoop/cci/org/whatisoop/chaincode/example02"
+	"whatisoop/ccs"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
 )
 
 type ChaincodeExample struct {
@@ -118,7 +118,7 @@ func (t *ChaincodeExample) CheckBalance(stub shim.ChaincodeStubInterface, param 
 func main() {
 	self := &ChaincodeExample{}
 	interfaces := ccs.Interfaces{
-		"org.WHATISOOP.chaincode.example02": self,
+		"org.whatisoop.chaincode.example02": self,
 		"appinit": self,
 	}
 

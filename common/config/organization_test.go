@@ -19,10 +19,10 @@ package config
 import (
 	"testing"
 
-	mspconfig "github.com/WHATISOOP/fabric/common/config/msp"
-	fabricconfig "github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/msp"
-	mspprotos "github.com/WHATISOOP/fabric/protos/msp"
+	mspconfig "github.com/whatisoop/fabric/common/config/msp"
+	fabricconfig "github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/msp"
+	mspprotos "github.com/whatisoop/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
 )
 

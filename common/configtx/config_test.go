@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

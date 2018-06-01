@@ -23,10 +23,10 @@ import (
 
 	"encoding/hex"
 
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/ca"
-	"github.com/WHATISOOP/fabric/common/tools/cryptogen/csp"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/ca"
+	"github.com/whatisoop/fabric/common/tools/cryptogen/csp"
 )
 
 func GenerateLocalMSP(baseDir, name string, sans []string, signCA *ca.CA,

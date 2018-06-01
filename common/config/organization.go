@@ -19,9 +19,9 @@ package config
 import (
 	"fmt"
 
-	mspconfig "github.com/WHATISOOP/fabric/common/config/msp"
-	"github.com/WHATISOOP/fabric/msp"
-	mspprotos "github.com/WHATISOOP/fabric/protos/msp"
+	mspconfig "github.com/whatisoop/fabric/common/config/msp"
+	"github.com/whatisoop/fabric/msp"
+	mspprotos "github.com/whatisoop/fabric/protos/msp"
 )
 
 // Org config keys

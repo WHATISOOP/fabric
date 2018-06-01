@@ -19,9 +19,9 @@ package chaincode
 import (
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/peer/common"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/peer/common"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

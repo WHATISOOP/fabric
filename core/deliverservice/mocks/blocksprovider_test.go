@@ -23,10 +23,10 @@ import (
 	"time"
 
 	pb "github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/core/deliverservice/blocksprovider"
-	"github.com/WHATISOOP/fabric/protos/common"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
-	"github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/core/deliverservice/blocksprovider"
+	"github.com/whatisoop/fabric/protos/common"
+	proto "github.com/whatisoop/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/protos/orderer"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 )

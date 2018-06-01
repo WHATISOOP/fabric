@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/configtx/api"
-	mockconfigtx "github.com/WHATISOOP/fabric/common/mocks/configtx"
-	mockpolicies "github.com/WHATISOOP/fabric/common/mocks/policies"
-	"github.com/WHATISOOP/fabric/common/policies"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/configtx/api"
+	mockconfigtx "github.com/whatisoop/fabric/common/mocks/configtx"
+	mockpolicies "github.com/whatisoop/fabric/common/mocks/policies"
+	"github.com/whatisoop/fabric/common/policies"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 
 	"github.com/stretchr/testify/assert"
 )

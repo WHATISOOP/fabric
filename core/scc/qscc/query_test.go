@@ -21,15 +21,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/policy"
-	policymocks "github.com/WHATISOOP/fabric/core/policy/mocks"
-	"github.com/WHATISOOP/fabric/protos/common"
-	peer2 "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/policy"
+	policymocks "github.com/whatisoop/fabric/core/policy/mocks"
+	"github.com/whatisoop/fabric/protos/common"
+	peer2 "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
@@ -49,7 +49,7 @@ func setupTestLedger(chainid string, path string) (*shim.MockStub, error) {
 
 func TestQueryGetChainInfo(t *testing.T) {
 	chainid := "mytestchainid1"
-	path := "/var/WHATISOOP/test1/"
+	path := "/var/whatisoop/test1/"
 	stub, err := setupTestLedger(chainid, path)
 	defer os.RemoveAll(path)
 	if err != nil {
@@ -71,7 +71,7 @@ func TestQueryGetChainInfo(t *testing.T) {
 
 func TestQueryGetTransactionByID(t *testing.T) {
 	chainid := "mytestchainid2"
-	path := "/var/WHATISOOP/test2/"
+	path := "/var/whatisoop/test2/"
 	stub, err := setupTestLedger(chainid, path)
 	defer os.RemoveAll(path)
 	if err != nil {
@@ -94,7 +94,7 @@ func TestQueryGetTransactionByID(t *testing.T) {
 
 func TestQueryGetBlockByNumber(t *testing.T) {
 	chainid := "mytestchainid3"
-	path := "/var/WHATISOOP/test3/"
+	path := "/var/whatisoop/test3/"
 	stub, err := setupTestLedger(chainid, path)
 	defer os.RemoveAll(path)
 	if err != nil {
@@ -119,7 +119,7 @@ func TestQueryGetBlockByNumber(t *testing.T) {
 
 func TestQueryGetBlockByHash(t *testing.T) {
 	chainid := "mytestchainid4"
-	path := "/var/WHATISOOP/test4/"
+	path := "/var/whatisoop/test4/"
 	stub, err := setupTestLedger(chainid, path)
 	defer os.RemoveAll(path)
 	if err != nil {
@@ -137,7 +137,7 @@ func TestQueryGetBlockByHash(t *testing.T) {
 
 func TestQueryGetBlockByTxID(t *testing.T) {
 	chainid := "mytestchainid5"
-	path := "/var/WHATISOOP/test5/"
+	path := "/var/whatisoop/test5/"
 	stub, err := setupTestLedger(chainid, path)
 	defer os.RemoveAll(path)
 	if err != nil {
@@ -151,7 +151,7 @@ func TestQueryGetBlockByTxID(t *testing.T) {
 
 func TestFailingAccessControl(t *testing.T) {
 	chainid := "mytestchainid6"
-	path := "/var/WHATISOOP/test6/"
+	path := "/var/whatisoop/test6/"
 	_, err := setupTestLedger(chainid, path)
 	defer os.RemoveAll(path)
 	if err != nil {
@@ -186,7 +186,7 @@ func TestFailingAccessControl(t *testing.T) {
 
 func TestQueryNonexistentFunction(t *testing.T) {
 	chainid := "mytestchainid7"
-	path := "/var/WHATISOOP/test7/"
+	path := "/var/whatisoop/test7/"
 	stub, err := setupTestLedger(chainid, path)
 	defer os.RemoveAll(path)
 	if err != nil {
@@ -202,7 +202,7 @@ func TestQueryNonexistentFunction(t *testing.T) {
 // that contains two transactions
 func TestQueryGeneratedBlock(t *testing.T) {
 	chainid := "mytestchainid8"
-	path := "/var/WHATISOOP/test8/"
+	path := "/var/whatisoop/test8/"
 	stub, err := setupTestLedger(chainid, path)
 	defer os.RemoveAll(path)
 	if err != nil {

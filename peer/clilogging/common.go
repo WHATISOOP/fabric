@@ -17,9 +17,9 @@ limitations under the License.
 package clilogging
 
 import (
-	"github.com/WHATISOOP/fabric/common/errors"
-	"github.com/WHATISOOP/fabric/peer/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/errors"
+	"github.com/whatisoop/fabric/peer/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
 
 	"github.com/spf13/cobra"
 )

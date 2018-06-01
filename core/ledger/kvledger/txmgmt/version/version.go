@@ -16,7 +16,7 @@ limitations under the License.
 
 package version
 
-import "github.com/WHATISOOP/fabric/common/ledger/util"
+import "github.com/whatisoop/fabric/common/ledger/util"
 
 // Height represents the height of a transaction in blockchain
 type Height struct {

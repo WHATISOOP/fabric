@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/peer/chaincode"
-	"github.com/WHATISOOP/fabric/peer/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/peer/chaincode"
+	"github.com/whatisoop/fabric/peer/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
 
 	"golang.org/x/net/context"
 )

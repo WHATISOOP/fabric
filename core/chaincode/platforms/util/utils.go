@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/common/util"
-	cutil "github.com/WHATISOOP/fabric/core/container/util"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/common/util"
+	cutil "github.com/whatisoop/fabric/core/container/util"
 )
 
 var logger = flogging.MustGetLogger("util")

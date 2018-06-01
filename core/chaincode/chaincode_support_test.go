@@ -28,25 +28,25 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	commonledger "github.com/WHATISOOP/fabric/common/ledger"
-	mocklgr "github.com/WHATISOOP/fabric/common/mocks/ledger"
-	mockpeer "github.com/WHATISOOP/fabric/common/mocks/peer"
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgermgmt"
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/policy"
-	"github.com/WHATISOOP/fabric/core/scc"
-	plgr "github.com/WHATISOOP/fabric/protos/ledger/queryresult"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/flogging"
+	commonledger "github.com/whatisoop/fabric/common/ledger"
+	mocklgr "github.com/whatisoop/fabric/common/mocks/ledger"
+	mockpeer "github.com/whatisoop/fabric/common/mocks/peer"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger/ledgermgmt"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/policy"
+	"github.com/whatisoop/fabric/core/scc"
+	plgr "github.com/whatisoop/fabric/protos/ledger/queryresult"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	putils "github.com/whatisoop/fabric/protos/utils"
 	"golang.org/x/net/context"
 
-	mspmgmt "github.com/WHATISOOP/fabric/msp/mgmt"
+	mspmgmt "github.com/whatisoop/fabric/msp/mgmt"
 )
 
 var globalBlockNum map[string]uint64
@@ -184,7 +184,7 @@ func finitMockPeer(chainIDs ...string) {
 	ledgermgmt.CleanupTestEnv()
 	ledgerPath := config.GetPath("peer.fileSystemPath")
 	os.RemoveAll(ledgerPath)
-	os.RemoveAll(filepath.Join(os.TempDir(), "WHATISOOP"))
+	os.RemoveAll(filepath.Join(os.TempDir(), "whatisoop"))
 }
 
 //store the stream CC mappings here

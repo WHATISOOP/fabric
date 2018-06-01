@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/WHATISOOP/fabric/core/ledger/util"
-	"github.com/WHATISOOP/fabric/events/consumer"
-	"github.com/WHATISOOP/fabric/msp/mgmt"
-	"github.com/WHATISOOP/fabric/msp/mgmt/testtools"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/core/ledger/util"
+	"github.com/whatisoop/fabric/events/consumer"
+	"github.com/whatisoop/fabric/msp/mgmt"
+	"github.com/whatisoop/fabric/msp/mgmt/testtools"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 type adapter struct {

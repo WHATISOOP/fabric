@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb/statecouchdb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/txmgr"
-	"github.com/WHATISOOP/fabric/core/ledger/util"
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb/statecouchdb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/whatisoop/fabric/core/ledger/util"
+	"github.com/whatisoop/fabric/protos/common"
 	"github.com/spf13/viper"
 )
 

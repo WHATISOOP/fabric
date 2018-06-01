@@ -3,12 +3,12 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  *
- * See github.com/WHATISOOP/fabric/test/chaincodes/AutoVendor/chaincode/main.go for details
+ * See github.com/whatisoop/fabric/test/chaincodes/AutoVendor/chaincode/main.go for details
  */
 package directdep
 
 import (
-	"github.com/WHATISOOP/fabric/test/chaincodes/AutoVendor/indirectdep"
+	"github.com/whatisoop/fabric/test/chaincodes/AutoVendor/indirectdep"
 )
 
 func PointlessFunction() {

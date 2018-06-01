@@ -17,9 +17,9 @@ limitations under the License.
 package scc
 
 import (
-	lm "github.com/WHATISOOP/fabric/common/mocks/ledger"
-	"github.com/WHATISOOP/fabric/core/common/sysccprovider"
-	"github.com/WHATISOOP/fabric/core/ledger"
+	lm "github.com/whatisoop/fabric/common/mocks/ledger"
+	"github.com/whatisoop/fabric/core/common/sysccprovider"
+	"github.com/whatisoop/fabric/core/ledger"
 )
 
 type MocksccProviderFactory struct {

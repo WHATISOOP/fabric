@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	"github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/gossip/discovery"
-	"github.com/WHATISOOP/fabric/gossip/identity"
-	"github.com/WHATISOOP/fabric/gossip/util"
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/gossip/api"
+	"github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/gossip/discovery"
+	"github.com/whatisoop/fabric/gossip/identity"
+	"github.com/whatisoop/fabric/gossip/util"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

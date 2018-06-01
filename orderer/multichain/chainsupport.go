@@ -17,19 +17,19 @@ limitations under the License.
 package multichain
 
 import (
-	"github.com/WHATISOOP/fabric/common/config"
-	"github.com/WHATISOOP/fabric/common/crypto"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/orderer/common/blockcutter"
-	"github.com/WHATISOOP/fabric/orderer/common/broadcast"
-	"github.com/WHATISOOP/fabric/orderer/common/configtxfilter"
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	"github.com/WHATISOOP/fabric/orderer/common/sigfilter"
-	"github.com/WHATISOOP/fabric/orderer/common/sizefilter"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/common/config"
+	"github.com/whatisoop/fabric/common/crypto"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/orderer/common/blockcutter"
+	"github.com/whatisoop/fabric/orderer/common/broadcast"
+	"github.com/whatisoop/fabric/orderer/common/configtxfilter"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	"github.com/whatisoop/fabric/orderer/common/sigfilter"
+	"github.com/whatisoop/fabric/orderer/common/sizefilter"
+	"github.com/whatisoop/fabric/orderer/ledger"
+	cb "github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 // Consenter defines the backing ordering mechanism

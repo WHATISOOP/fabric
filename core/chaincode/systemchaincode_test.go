@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/common/util"
-	"github.com/WHATISOOP/fabric/core/common/ccprovider"
-	"github.com/WHATISOOP/fabric/core/peer"
-	"github.com/WHATISOOP/fabric/core/scc"
-	"github.com/WHATISOOP/fabric/core/scc/samplesyscc"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/util"
+	"github.com/whatisoop/fabric/core/common/ccprovider"
+	"github.com/whatisoop/fabric/core/peer"
+	"github.com/whatisoop/fabric/core/scc"
+	"github.com/whatisoop/fabric/core/scc/samplesyscc"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/spf13/viper"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
@@ -46,8 +46,8 @@ func (osyscc *oldSysCCInfo) reset() {
 func initSysCCTests() (*oldSysCCInfo, net.Listener, error) {
 	var opts []grpc.ServerOption
 	grpcServer := grpc.NewServer(opts...)
-	viper.Set("peer.fileSystemPath", "/tmp/WHATISOOP/test/tmpdb")
-	defer os.RemoveAll("/tmp/WHATISOOP/test/tmpdb")
+	viper.Set("peer.fileSystemPath", "/tmp/whatisoop/test/tmpdb")
+	defer os.RemoveAll("/tmp/whatisoop/test/tmpdb")
 
 	peer.MockInitialize()
 
@@ -80,7 +80,7 @@ func initSysCCTests() (*oldSysCCInfo, net.Listener, error) {
 		{
 			Enabled:   true,
 			Name:      "sample_syscc",
-			Path:      "github.com/WHATISOOP/fabric/core/scc/samplesyscc",
+			Path:      "github.com/whatisoop/fabric/core/scc/samplesyscc",
 			InitArgs:  [][]byte{},
 			Chaincode: &samplesyscc.SampleSysCC{},
 		},
@@ -102,7 +102,7 @@ func deploySampleSysCC(t *testing.T, ctxt context.Context, chainID string) error
 
 	defer scc.DeDeploySysCCs(chainID)
 
-	url := "github.com/WHATISOOP/fabric/core/scc/sample_syscc"
+	url := "github.com/whatisoop/fabric/core/scc/sample_syscc"
 
 	sysCCVers := util.GetSysCCVersion()
 

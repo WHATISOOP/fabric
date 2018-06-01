@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
 )
 
 func checkInit(t *testing.T, scc *SimpleChaincode, stub *shim.MockStub, args [][]byte) {

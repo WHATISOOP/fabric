@@ -17,8 +17,8 @@ limitations under the License.
 package config
 
 import (
-	mspconfig "github.com/WHATISOOP/fabric/common/config/msp"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	mspconfig "github.com/whatisoop/fabric/common/config/msp"
+	pb "github.com/whatisoop/fabric/protos/peer"
 
 	logging "github.com/op/go-logging"
 )

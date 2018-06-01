@@ -23,12 +23,12 @@ import (
 	"bytes"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/bccsp"
-	"github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/common/crypto"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/bccsp"
+	"github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/common/crypto"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 // GetPayloads get's the underlying payload objects in a TransactionAction

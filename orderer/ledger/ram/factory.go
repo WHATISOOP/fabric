@@ -19,8 +19,8 @@ package ramledger
 import (
 	"sync"
 
-	"github.com/WHATISOOP/fabric/orderer/ledger"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/orderer/ledger"
+	cb "github.com/whatisoop/fabric/protos/common"
 )
 
 type ramLedgerFactory struct {

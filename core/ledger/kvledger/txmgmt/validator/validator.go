@@ -17,8 +17,8 @@ limitations under the License.
 package validator
 
 import (
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/whatisoop/fabric/protos/common"
 )
 
 // Validator validates a rwset

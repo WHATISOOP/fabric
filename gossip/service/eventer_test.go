@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/config"
-	"github.com/WHATISOOP/fabric/gossip/util"
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/config"
+	"github.com/whatisoop/fabric/gossip/util"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 const testChainID = "foo"

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	genesisconfig "github.com/WHATISOOP/fabric/common/configtx/tool/localconfig"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	genesisconfig "github.com/whatisoop/fabric/common/configtx/tool/localconfig"
+	cb "github.com/whatisoop/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

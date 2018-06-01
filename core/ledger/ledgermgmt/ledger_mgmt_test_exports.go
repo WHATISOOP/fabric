@@ -21,7 +21,7 @@ import (
 
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
 )
 
 // InitializeTestEnv initializes ledgermgmt for tests

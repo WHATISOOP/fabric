@@ -17,11 +17,11 @@ limitations under the License.
 package chainmgmt
 
 import (
-	mockmsp "github.com/WHATISOOP/fabric/common/mocks/msp"
-	"github.com/WHATISOOP/fabric/msp"
-	"github.com/WHATISOOP/fabric/protos/common"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
-	putils "github.com/WHATISOOP/fabric/protos/utils"
+	mockmsp "github.com/whatisoop/fabric/common/mocks/msp"
+	"github.com/whatisoop/fabric/msp"
+	"github.com/whatisoop/fabric/protos/common"
+	pb "github.com/whatisoop/fabric/protos/peer"
+	putils "github.com/whatisoop/fabric/protos/utils"
 )
 
 const (

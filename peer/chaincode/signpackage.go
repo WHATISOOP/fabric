@@ -22,8 +22,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/WHATISOOP/fabric/core/common/ccpackage"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/core/common/ccpackage"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 // signpackageCmd returns the cobra command for signing a package

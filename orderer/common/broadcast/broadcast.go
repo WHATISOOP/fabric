@@ -17,15 +17,15 @@ limitations under the License.
 package broadcast
 
 import (
-	"github.com/WHATISOOP/fabric/orderer/common/filter"
-	cb "github.com/WHATISOOP/fabric/protos/common"
-	ab "github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/orderer/common/filter"
+	cb "github.com/whatisoop/fabric/protos/common"
+	ab "github.com/whatisoop/fabric/protos/orderer"
 	"github.com/op/go-logging"
 
 	"io"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/WHATISOOP/fabric/protos/utils"
+	"github.com/whatisoop/fabric/protos/utils"
 )
 
 var logger = logging.MustGetLogger("orderer/common/broadcast")

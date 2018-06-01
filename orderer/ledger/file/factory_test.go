@@ -21,9 +21,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/WHATISOOP/fabric/common/configtx/tool/provisional"
-	"github.com/WHATISOOP/fabric/common/ledger/blkstorage"
-	"github.com/WHATISOOP/fabric/orderer/ledger"
+	"github.com/whatisoop/fabric/common/configtx/tool/provisional"
+	"github.com/whatisoop/fabric/common/ledger/blkstorage"
+	"github.com/whatisoop/fabric/orderer/ledger"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -69,7 +69,7 @@ func TestBlockstoreProviderError(t *testing.T) {
 }
 
 func TestMultiReinitialization(t *testing.T) {
-	dir, err := ioutil.TempDir("", "WHATISOOP_fabric")
+	dir, err := ioutil.TempDir("", "whatisoop_fabric")
 	assert.NoError(t, err, "Error creating temp dir: %s", err)
 
 	flf := New(dir)

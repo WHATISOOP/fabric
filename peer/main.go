@@ -27,14 +27,14 @@ import (
 
 	_ "net/http/pprof"
 
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/config"
-	"github.com/WHATISOOP/fabric/peer/chaincode"
-	"github.com/WHATISOOP/fabric/peer/channel"
-	"github.com/WHATISOOP/fabric/peer/clilogging"
-	"github.com/WHATISOOP/fabric/peer/common"
-	"github.com/WHATISOOP/fabric/peer/node"
-	"github.com/WHATISOOP/fabric/peer/version"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/config"
+	"github.com/whatisoop/fabric/peer/chaincode"
+	"github.com/whatisoop/fabric/peer/channel"
+	"github.com/whatisoop/fabric/peer/clilogging"
+	"github.com/whatisoop/fabric/peer/common"
+	"github.com/whatisoop/fabric/peer/node"
+	"github.com/whatisoop/fabric/peer/version"
 )
 
 var logger = flogging.MustGetLogger("main")

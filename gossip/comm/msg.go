@@ -19,7 +19,7 @@ package comm
 import (
 	"sync"
 
-	proto "github.com/WHATISOOP/fabric/protos/gossip"
+	proto "github.com/whatisoop/fabric/protos/gossip"
 )
 
 // ReceivedMessageImpl is an implementation of ReceivedMessage

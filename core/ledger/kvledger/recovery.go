@@ -16,7 +16,7 @@ limitations under the License.
 
 package kvledger
 
-import "github.com/WHATISOOP/fabric/protos/common"
+import "github.com/whatisoop/fabric/protos/common"
 
 type recoverable interface {
 	// ShouldRecover return whether recovery is need.

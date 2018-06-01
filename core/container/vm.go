@@ -23,10 +23,10 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/WHATISOOP/fabric/common/flogging"
-	"github.com/WHATISOOP/fabric/core/chaincode/platforms"
-	cutil "github.com/WHATISOOP/fabric/core/container/util"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/common/flogging"
+	"github.com/whatisoop/fabric/core/chaincode/platforms"
+	cutil "github.com/whatisoop/fabric/core/container/util"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 // VM implemenation of VM management functionality.

@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"os"
 
-	configtxtest "github.com/WHATISOOP/fabric/common/configtx/test"
-	"github.com/WHATISOOP/fabric/core/ledger"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/example"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgerconfig"
-	"github.com/WHATISOOP/fabric/core/ledger/ledgermgmt"
-	"github.com/WHATISOOP/fabric/core/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/util"
-	"github.com/WHATISOOP/fabric/protos/common"
+	configtxtest "github.com/whatisoop/fabric/common/configtx/test"
+	"github.com/whatisoop/fabric/core/ledger"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/example"
+	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
+	"github.com/whatisoop/fabric/core/ledger/ledgermgmt"
+	"github.com/whatisoop/fabric/core/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/util"
+	"github.com/whatisoop/fabric/protos/common"
 	logging "github.com/op/go-logging"
 )
 

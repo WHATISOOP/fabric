@@ -50,7 +50,7 @@ func GetDevConfigDir() (string, error) {
 	}
 
 	for _, p := range filepath.SplitList(gopath) {
-		devPath := filepath.Join(p, "src/github.com/WHATISOOP/fabric/sampleconfig")
+		devPath := filepath.Join(p, "src/github.com/whatisoop/fabric/sampleconfig")
 		if !dirExists(devPath) {
 			continue
 		}
@@ -109,11 +109,11 @@ func TranslatePathInPlace(base string, p *string) {
 //----------------------------------------------------------------------------------
 // GetPath allows configuration strings that specify a (config-file) relative path
 //
-// For example: Assume our config is located in /etc/WHATISOOP/fabric/core.yaml with
+// For example: Assume our config is located in /etc/whatisoop/fabric/core.yaml with
 // a key "msp.configPath" = "msp/config.yaml".
 //
 // This function will return:
-//      GetPath("msp.configPath") -> /etc/WHATISOOP/fabric/msp/config.yaml
+//      GetPath("msp.configPath") -> /etc/whatisoop/fabric/msp/config.yaml
 //
 //----------------------------------------------------------------------------------
 func GetPath(key string) string {
@@ -125,7 +125,7 @@ func GetPath(key string) string {
 	return TranslatePath(filepath.Dir(viper.ConfigFileUsed()), p)
 }
 
-const OfficialPath = "/etc/WHATISOOP/fabric"
+const OfficialPath = "/etc/whatisoop/fabric"
 
 //----------------------------------------------------------------------------------
 // InitViper()
@@ -146,7 +146,7 @@ func InitViper(v *viper.Viper, configName string) error {
 		//
 		// *) CWD
 		// *) The $GOPATH based development tree
-		// *) /etc/WHATISOOP/fabric
+		// *) /etc/whatisoop/fabric
 		//
 
 		// CWD

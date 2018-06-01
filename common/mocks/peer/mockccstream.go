@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	pb "github.com/whatisoop/fabric/protos/peer"
 )
 
 //MockResponseSet is used for processing CC to Peer comm

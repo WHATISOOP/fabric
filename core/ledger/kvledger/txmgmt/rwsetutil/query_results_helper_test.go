@@ -22,10 +22,10 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	bccspfactory "github.com/WHATISOOP/fabric/bccsp/factory"
-	"github.com/WHATISOOP/fabric/common/ledger/testutil"
-	"github.com/WHATISOOP/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/WHATISOOP/fabric/protos/ledger/rwset/kvrwset"
+	bccspfactory "github.com/whatisoop/fabric/bccsp/factory"
+	"github.com/whatisoop/fabric/common/ledger/testutil"
+	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/whatisoop/fabric/protos/ledger/rwset/kvrwset"
 )
 
 func TestQueryResultHelper_NoResults(t *testing.T) {

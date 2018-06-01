@@ -17,7 +17,7 @@ limitations under the License.
 
 ///////////////////////////////////////////////////////////////////////
 // Author : IT People - Mohan Venkataraman - table API for v1.0
-// Purpose: Explore the WHATISOOP/fabric and understand
+// Purpose: Explore the whatisoop/fabric and understand
 // how to write an chain code, application/chain code boundaries
 // The code is not the best as it has just hammered out in a day or two
 // Feedback and updates are appreciated
@@ -30,7 +30,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/WHATISOOP/fabric/core/chaincode/shim"
+	"github.com/whatisoop/fabric/core/chaincode/shim"
 )
 
 //////////////////////////////////////////////////////////////////////////////////////////////////

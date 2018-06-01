@@ -17,11 +17,11 @@ limitations under the License.
 package configtx
 
 import (
-	"github.com/WHATISOOP/fabric/common/config"
-	mockpolicies "github.com/WHATISOOP/fabric/common/mocks/policies"
-	"github.com/WHATISOOP/fabric/common/policies"
-	"github.com/WHATISOOP/fabric/msp"
-	cb "github.com/WHATISOOP/fabric/protos/common"
+	"github.com/whatisoop/fabric/common/config"
+	mockpolicies "github.com/whatisoop/fabric/common/mocks/policies"
+	"github.com/whatisoop/fabric/common/policies"
+	"github.com/whatisoop/fabric/msp"
+	cb "github.com/whatisoop/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

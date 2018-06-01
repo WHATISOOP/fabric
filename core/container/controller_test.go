@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/container/ccintf"
-	"github.com/WHATISOOP/fabric/core/container/dockercontroller"
-	"github.com/WHATISOOP/fabric/core/container/inproccontroller"
-	pb "github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/core/container/ccintf"
+	"github.com/whatisoop/fabric/core/container/dockercontroller"
+	"github.com/whatisoop/fabric/core/container/inproccontroller"
+	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 )

@@ -17,7 +17,7 @@ limitations under the License.
 package consumer
 
 import (
-	"github.com/WHATISOOP/fabric/protos/peer"
+	"github.com/whatisoop/fabric/protos/peer"
 )
 
 //EventAdapter is the interface by which a fabric event client registers interested events and

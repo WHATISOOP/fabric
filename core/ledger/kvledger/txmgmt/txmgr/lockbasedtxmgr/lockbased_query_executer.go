@@ -17,8 +17,8 @@ limitations under the License.
 package lockbasedtxmgr
 
 import (
-	"github.com/WHATISOOP/fabric/common/ledger"
-	"github.com/WHATISOOP/fabric/common/util"
+	"github.com/whatisoop/fabric/common/ledger"
+	"github.com/whatisoop/fabric/common/util"
 )
 
 // LockBasedQueryExecutor is a query executor used in `LockBasedTxMgr`

@@ -27,8 +27,8 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/transport"
 
-	"github.com/WHATISOOP/fabric/core/comm"
-	testpb "github.com/WHATISOOP/fabric/core/comm/testdata/grpc"
+	"github.com/whatisoop/fabric/core/comm"
+	testpb "github.com/whatisoop/fabric/core/comm/testdata/grpc"
 )
 
 //Embedded certificates for testing

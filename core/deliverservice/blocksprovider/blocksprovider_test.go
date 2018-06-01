@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WHATISOOP/fabric/core/deliverservice/mocks"
-	"github.com/WHATISOOP/fabric/gossip/api"
-	common2 "github.com/WHATISOOP/fabric/gossip/common"
-	"github.com/WHATISOOP/fabric/protos/common"
-	"github.com/WHATISOOP/fabric/protos/orderer"
+	"github.com/whatisoop/fabric/core/deliverservice/mocks"
+	"github.com/whatisoop/fabric/gossip/api"
+	common2 "github.com/whatisoop/fabric/gossip/common"
+	"github.com/whatisoop/fabric/protos/common"
+	"github.com/whatisoop/fabric/protos/orderer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )
