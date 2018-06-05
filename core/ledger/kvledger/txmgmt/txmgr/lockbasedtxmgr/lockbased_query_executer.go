@@ -52,6 +52,11 @@ func (q *lockBasedQueryExecutor) GetStateRangeScanIterator(namespace string, sta
 	return q.helper.getStateRangeScanIterator(namespace, startKey, endKey)
 }
 
+// QueryByView
+func (q *lockBasedQueryExecutor) QueryByView(ns string, opt []byte) (ledger.ResultsIterator, error) {
+	return q.helper.queryByView(ns, opt)
+}
+
 // ExecuteQuery implements method in interface `ledger.QueryExecutor`
 func (q *lockBasedQueryExecutor) ExecuteQuery(namespace, query string) (ledger.ResultsIterator, error) {
 	return q.helper.executeQuery(namespace, query)

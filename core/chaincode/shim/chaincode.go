@@ -29,6 +29,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
+	"github.com/op/go-logging"
+	"github.com/spf13/viper"
 	"github.com/whatisoop/fabric/bccsp/factory"
 	"github.com/whatisoop/fabric/common/flogging"
 	commonledger "github.com/whatisoop/fabric/common/ledger"
@@ -36,8 +38,6 @@ import (
 	"github.com/whatisoop/fabric/protos/ledger/queryresult"
 	pb "github.com/whatisoop/fabric/protos/peer"
 	"github.com/whatisoop/fabric/protos/utils"
-	"github.com/op/go-logging"
-	"github.com/spf13/viper"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
@@ -442,6 +442,16 @@ func (stub *ChaincodeStub) GetStateByRange(startKey, endKey string) (StateQueryI
 		return nil, err
 	}
 	return stub.handleGetStateByRange(startKey, endKey)
+}
+
+//QueryByView documentation can be found in interfaces.go
+func (stub *ChaincodeStub) QueryByView(opt string) (StateQueryIteratorInterface, error) {
+	fmt.Println("===QueryByView===")
+	response, err := stub.handler.handleQueryByView(opt, stub.TxID)
+	if err != nil {
+		return nil, err
+	}
+	return &StateQueryIterator{CommonIterator: &CommonIterator{stub.handler, stub.TxID, response, 0}}, nil
 }
 
 // GetQueryResult documentation can be found in interfaces.go

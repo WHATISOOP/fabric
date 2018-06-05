@@ -1,64 +1,18 @@
-
-**Note:** This is a **read-only mirror** of the formal [Gerrit](https://gerrit.hyperledger.org/r/#/admin/projects/fabric) repository,
-where active development is ongoing. Issue tracking is handled in [Jira](https://jira.hyperledger.org/secure/RapidBoard.jspa?projectKey=FAB&rapidView=5&view=planning)
-
-## Status
-
-This project is an _Active_ Hyperledger project. For more information on the history of this project see the [Fabric wiki page](https://wiki.hyperledger.org/projects/fabric.md#history). Information on what _Active_ entails can be found in
-the [Hyperledger Project Lifecycle document](https://wiki.hyperledger.org/community/project-lifecycle).
-
-[![Build Status](https://jenkins.hyperledger.org/buildStatus/icon?job=fabric-merge-x86_64)](https://jenkins.hyperledger.org/view/fabric/job/fabric-merge-x86_64/)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/955/badge)](https://bestpractices.coreinfrastructure.org/projects/955)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hyperledger/fabric)](https://goreportcard.com/report/github.com/hyperledger/fabric)
-[![GoDoc](https://godoc.org/github.com/hyperledger/fabric?status.svg)](https://godoc.org/github.com/hyperledger/fabric)
-[![Documentation Status](https://readthedocs.org/projects/hyperledger-fabric/badge/?version=latest)](http://hyperledger-fabric.readthedocs.io/en/latest/?badge=latest)
-
-## Hyperledger Fabric
-
-Hyperledger Fabric is a platform for distributed ledger solutions, underpinned
-by a modular architecture delivering high degrees of confidentiality,
-resiliency, flexibility and scalability. It is designed to support pluggable
-implementations of different components, and accommodate the complexity and
-intricacies that exist across the economic ecosystem.
-
-Hyperledger Fabric delivers a uniquely elastic and extensible architecture,
-distinguishing it from alternative blockchain solutions. Planning for the
-future of enterprise blockchain requires building on top of a fully-vetted,
-open source architecture; Hyperledger Fabric is your starting point.
-
-## Documentation, Getting Started and Developer Guides
-
-Please visit our
-[online documentation](http://hyperledger-fabric.readthedocs.io/en/latest/) for
-information on getting started using and developing with the fabric, SDK and chaincode.
-
-It's recommended for first-time users to begin by going through the
-[Getting Started](http://hyperledger-fabric.readthedocs.io/en/latest/getting_started.html)
-section of the documentation in order to gain familiarity with the Hyperledger
-Fabric components and the basic transaction flow. 
-
-## Contributing
-
-We welcome contributions to the Hyperledger Fabric Project in many forms.
-There’s always plenty to do! Check [the documentation on how to contribute to this project](http://hyperledger-fabric.readthedocs.io/en/latest/CONTRIBUTING.html)
-for the full details.
-
-## Community
-
-[Hyperledger Community](https://www.hyperledger.org/community)
-
-[Hyperledger mailing lists and archives](http://lists.hyperledger.org/)
-
-[Hyperledger Chat](http://chat.hyperledger.org/channel/fabric)
-
-[Hyperledger Fabric Issue Tracking](https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104)
-
-[Hyperledger Wiki](https://wiki.hyperledger.org/)
-
-[Hyperledger Code of Conduct](https://wiki.hyperledger.org/community/hyperledger-project-code-of-conduct)
-
-[Community Calendar](https://wiki.hyperledger.org/community/calendar-public-meetings)
-
-## License <a name="license"></a>
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+## couchdb增加视图查询接口
+### peer channel create -o orderer.example.com:7050 -c demochannel -f ./demochannel.tx  
+### peer channel join -b demochannel.block  
+### peer chaincode install -n viewcc -v 1.0 -p github.com/hyperledger/fabric/examples/chaincode/go/chaincode_view
+### peer chaincode instantiate -o orderer.example.com:7050 -C demochannel -n viewcc -v 1.0 -c '{"Args":["init"]}'  
+### peer chaincode invoke -C demochannel -n viewcc -v 1.0 -c '{"Args":["add","{\"title\":\"Hello Blockchain\",\"body\":\"Welcome to blockchain world!\",\"date\":\"2018/11/10 13:12:20\"}"]}'  
+### peer chaincode invoke -C demochannel -n viewcc -v 1.0 -c '{"Args":["add","{\"title\":\"Biking\",\"body\":\"My biggest hobby is mountainbiking. The other day...\",\"date\":\"2009/01/30 18:04:11\"}"]}'  
+### peer chaincode invoke -C demochannel -n viewcc -v 1.0 -c '{"Args":["add","{\"title\":\"Bought a Cat\",\"body\":\"I went to the the pet store earlier and brought home a little kitty...\",\"date\":\"2009/01/30 18:04:11\"}"]}'  
+### peer chaincode query -C demochannel -n viewcc -v 1.0 -c '{"Args":["get","6378806b97cc4d5753c0f8f85007f77850e160bdd92ecfbe07feb9cca29206b7"]}'  
+## 创建view
+### curl -H "Content-Type:application/json" -X PUT http://localhost:5984/demochannel/_design/demodesigndoc2 -d '{"views": {"demoview1": {"map":"function(doc){if(doc.data.date && doc.data.title) {emit(doc.data.title, doc); }}"}},"language": "javascript"}'         
+## 查询view
+### curl -H "Content-Type:application/json" localhost:5984/demochannel/_design/demodesigndoc2/_view/demoview1
+### curl -H "Content-Type:application/json" localhost:5984/demochannel/_design/demodesigndoc2/_view/demoview1?key=%22Biking%22 
+### curl -H "Content-Type:application/json" localhost:5984/demochannel/_design/demodesigndoc2/_view/demoview1?key=%22Hello%20World%22
+## 通过chaincode查询view
+### peer chaincode invoke -C demochannel -n viewcc -v 1.0 -c '{"Args":["searchByView","{\"designDocName\":\"demodesigndoc2\",\"viewName\":\"demoview1\",\"key\":\"Biking\"}"]}'
+### peer chaincode invoke -C demochannel -n viewcc -v 1.0 -c '{"Args":["searchByView","{\"designDocName\":\"demodesigndoc2\",\"viewName\":\"demoview1\",\"key\":\"Hello Blockchain\"}"]}'

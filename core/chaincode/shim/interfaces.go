@@ -192,6 +192,9 @@ type ChaincodeStubInterface interface {
 	// proposal. If the transaction is validated and successfully committed,
 	// the event will be delivered to the current event listeners.
 	SetEvent(name string, payload []byte) error
+
+	//新增视图查询
+	QueryByView(opt string) (StateQueryIteratorInterface, error)
 }
 
 // CommonIteratorInterface allows a chaincode to check whether any more result

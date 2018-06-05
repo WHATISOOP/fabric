@@ -58,6 +58,9 @@ type VersionedDB interface {
 	Open() error
 	// Close closes the db
 	Close()
+
+	// QueryByView
+	QueryByView(namespace string, opt []byte) (ResultsIterator, error)
 }
 
 // CompositeKey encloses Namespace and Key components

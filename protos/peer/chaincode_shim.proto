@@ -18,7 +18,7 @@ syntax = "proto3";
 
 package protos;
 option java_package = "org.hyperledger.fabric.protos.peer";
-option go_package = "github.com/hyperledger/fabric/protos/peer";
+option go_package = "github.com/whatisoop/fabric/protos/peer";
 import "peer/chaincode_event.proto";
 import "peer/proposal.proto";
 import "google/protobuf/timestamp.proto";
@@ -46,6 +46,7 @@ message ChaincodeMessage {
         QUERY_STATE_CLOSE = 17;
         KEEPALIVE = 18;
         GET_HISTORY_FOR_KEY = 19;
+        QUERY_BY_VIEW = 20;//添加视图查询操作
     }
 
     Type type = 1;
@@ -59,6 +60,10 @@ message ChaincodeMessage {
     // This event is then stored (currently)
     //with Block.NonHashData.TransactionResult
     ChaincodeEvent chaincode_event = 6;
+}
+
+message ViewOpt {
+    bytes opt = 1;
 }
 
 message PutStateInfo {

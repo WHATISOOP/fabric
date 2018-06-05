@@ -37,8 +37,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/whatisoop/fabric/common/flogging"
 	logging "github.com/op/go-logging"
+	"github.com/whatisoop/fabric/common/flogging"
 )
 
 var logger = flogging.MustGetLogger("couchdb")
@@ -84,6 +84,20 @@ type ConnectionInfo struct {
 	} `json:"vendor"`
 }
 
+// ViewQueryResponse querybyview in couchdb
+type ViewQueryResponse struct {
+	TotalRows int `json:"total_rows"`
+	Offset    int `json:"offset"`
+	Rows      []struct {
+		ID    string `json:"id"`
+		Key   string `json:"key"`
+		Value struct {
+			ID  string      `json:"_id"`
+			Rev interface{} `json:"_rev"`
+		} `json:"value"`
+	} `json:"rows"`
+}
+
 //RangeQueryResponse is used for processing REST range query responses from CouchDB
 type RangeQueryResponse struct {
 	TotalRows int `json:"total_rows"`
@@ -109,6 +123,13 @@ type Doc struct {
 	ID          string          `json:"_id"`
 	Rev         string          `json:"_rev"`
 	Attachments json.RawMessage `json:"_attachments"`
+}
+
+// ViewQueryOpt querybyview in couchdb
+type ViewQueryOpt struct {
+	DesignDocName string `json:"designDocName"`
+	ViewName      string `json:"viewName"`
+	Key           string `json:"key"`
 }
 
 //DocID is a minimal structure for capturing the ID from a query result
@@ -646,6 +667,81 @@ func getRevisionHeader(resp *http.Response) (string, error) {
 	reg := regexp.MustCompile(`"([^"]*)"`)
 	revisionNoQuotes := reg.ReplaceAllString(revision, "${1}")
 	return revisionNoQuotes, nil
+
+}
+
+// QueryDocumentsByView querybyview in couchdb
+func (dbclient *CouchDatabase) QueryDocumentsByView(key, designDocName, viewName string) (*[]QueryResult, error) {
+
+	logger.Debugf("Entering QueryDocumentsByView()  designDocName=%s, viewName=%s, key=%s", designDocName, viewName, key)
+
+	var results []QueryResult
+
+	rangeURL, err := url.Parse(dbclient.CouchInstance.conf.URL)
+	if err != nil {
+		logger.Errorf("URL parse error: %s", err.Error())
+		return nil, err
+	}
+
+	queryParms := rangeURL.Query()
+
+	if key != "" {
+		var err error
+		if key, err = encodeForJSON(key); err != nil {
+			return nil, err
+		}
+		queryParms.Add("key", "\""+key+"\"")
+	}
+
+	rangeURL.RawQuery = queryParms.Encode()
+
+	rangeURL.Path = dbclient.DBName + "/_design/" + designDocName + "/_view/" + viewName
+
+	//get the number of retries
+	maxRetries := dbclient.CouchInstance.conf.MaxRetries
+
+	resp, _, err := dbclient.CouchInstance.handleRequest(http.MethodGet, rangeURL.String(), nil, "", "", maxRetries, true)
+	if err != nil {
+		return nil, err
+	}
+	defer closeResponseBody(resp)
+
+	if logger.IsEnabledFor(logging.DEBUG) {
+		dump, err2 := httputil.DumpResponse(resp, true)
+		if err2 != nil {
+			log.Fatal(err2)
+		}
+		logger.Debugf("%s", dump)
+	}
+
+	//handle as JSON document
+	jsonResponseRaw, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	var jsonResponse = &ViewQueryResponse{}
+	err2 := json.Unmarshal(jsonResponseRaw, &jsonResponse)
+	if err2 != nil {
+		return nil, err2
+	}
+
+	logger.Debugf("Total Rows: %d", jsonResponse.TotalRows)
+
+	for _, row := range jsonResponse.Rows {
+
+		valueByte, err := json.Marshal(row.Value)
+		if err != nil {
+			continue
+		}
+		var addDocument = &QueryResult{row.ID, valueByte, nil}
+		results = append(results, *addDocument)
+
+	}
+
+	logger.Debugf("Exiting QueryDocumentsByView()")
+
+	return &results, nil
 
 }
 

@@ -25,10 +25,10 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
+	"github.com/op/go-logging"
 	"github.com/whatisoop/fabric/common/util"
 	"github.com/whatisoop/fabric/protos/ledger/queryresult"
 	pb "github.com/whatisoop/fabric/protos/peer"
-	"github.com/op/go-logging"
 )
 
 // Logger for the shim package.
@@ -213,6 +213,10 @@ func (stub *MockStub) GetStateByRange(startKey, endKey string) (StateQueryIterat
 		return nil, err
 	}
 	return NewMockStateRangeQueryIterator(stub, startKey, endKey), nil
+}
+
+func (stub *MockStub) QueryByView(opt string) (StateQueryIteratorInterface, error) {
+	return nil, errors.New("Not Implemented")
 }
 
 // GetQueryResult function can be invoked by a chaincode to perform a

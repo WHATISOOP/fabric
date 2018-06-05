@@ -93,6 +93,10 @@ type QueryExecutor interface {
 	// For a chaincode, the namespace corresponds to the chaincodeId
 	// The returned ResultsIterator contains results of type *KV which is defined in protos/ledger/queryresult.
 	ExecuteQuery(namespace, query string) (commonledger.ResultsIterator, error)
+
+	//QueryByView
+	QueryByView(namespace string, opt []byte) (commonledger.ResultsIterator, error)
+
 	// Done releases resources occupied by the QueryExecutor
 	Done()
 }

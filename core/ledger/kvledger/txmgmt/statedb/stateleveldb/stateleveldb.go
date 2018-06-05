@@ -19,13 +19,14 @@ package stateleveldb
 import (
 	"bytes"
 	"errors"
+	"fmt"
 
+	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/whatisoop/fabric/common/flogging"
 	"github.com/whatisoop/fabric/common/ledger/util/leveldbhelper"
 	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/statedb"
 	"github.com/whatisoop/fabric/core/ledger/kvledger/txmgmt/version"
 	"github.com/whatisoop/fabric/core/ledger/ledgerconfig"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
 )
 
 var logger = flogging.MustGetLogger("stateleveldb")
@@ -97,6 +98,11 @@ func (vdb *versionedDB) GetState(namespace string, key string) (*statedb.Version
 	}
 	val, ver := statedb.DecodeValue(dbVal)
 	return &statedb.VersionedValue{Value: val, Version: ver}, nil
+}
+
+// QueryByView querybyview in leveldb
+func (vdb *versionedDB) QueryByView(namespace string, opt []byte) (statedb.ResultsIterator, error) {
+	return nil, fmt.Errorf("not supported")
 }
 
 // GetStateMultipleKeys implements method in VersionedDB interface
